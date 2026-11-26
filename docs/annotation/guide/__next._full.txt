@@ -1,0 +1,160 @@
+1:"$Sreact.fragment"
+2:"/_next/static/chunks/318vd_uhd1odi.js"
+3:I[46912,["$2"],"default"]
+4:I[1384,["$2"],"default"]
+5:"/_next/static/chunks/09viwtfz8qtst.js"
+6:I[49848,["$2","$5"],""]
+9:"/_next/static/chunks/3nk8si_t3fsa6.js"
+a:I[86979,["$2","$5","$9"],"default"]
+13:"ViewportBoundary"
+14:I[96559,["$2"],"$13"]
+16:"MetadataBoundary"
+17:I[96559,["$2"],"$16"]
+18:"$Sreact.suspense"
+1a:I[2501,["$2"],"default",1]
+:HL["/_next/static/chunks/2t399uweowg-8.css","style"]
+:HL["/_next/static/media/InterVariable-s.p.3s0wwav3ax-t6.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/assets/logos/superderm-lockup-reversed.svg","image"]
+:HL["/assets/partners/pediamed-mark.png","image"]
+:HL["/assets/partners/anthropic-on-dark.svg","image"]
+:HL["/assets/partners/nyu-langone-health-on-dark.svg","image"]
+:HL["/assets/partners/illinois-logo-on-dark.svg","image"]
+e:X
+11:[["children",{"s":"__PAGE__","h":512,"d":{"r":"$L12","p":false,"v":null}}]]
+f:[["children",{"s":{"n":"slug","t":"oc","k":"annotation/guide","s":[]},"h":512,"d":{"r":"$L10","p":false,"v":"$e"},"c":"$Q11"}]]
+c:[["children",{"s":"docs","h":512,"d":{"r":"$Ld","p":false,"v":"$e"},"c":"$Qf"}]]
+7:[["children",{"s":"(site)","h":512,"d":{"r":["$","$1","c",{"children":[[["$","script","script-0",{"src":"/_next/static/chunks/09viwtfz8qtst.js","async":true,"nonce":"$undefined"}]],["$L8",["$","main",null,{"id":"main","children":["$","$L3",null,{"parallelRouterKey":"children","error":"$a","errorStyles":[],"errorScripts":[["$","script","script-0",{"src":"/_next/static/chunks/3nk8si_t3fsa6.js","async":true,"nonce":"$undefined"}]],"template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"className":"page-shell page-body","style":{"textAlign":"center","paddingTop":72},"children":[["$","h1",null,{"children":"Page Not Found"}],["$","p",null,{"children":"The page may have moved, or it may be a private item you do not have access to."}],["$","div",null,{"className":"button-row","style":{"justifyContent":"center"},"children":[["$","$L6",null,{"className":"button","href":"/","children":"SuperDerm Home"}],["$","$L6",null,{"className":"button button-secondary","href":"/docs","children":"Documentation"}]]}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"site-footer","children":["$","div",null,{"className":"page-shell","children":[["$","div",null,{"className":"footer-main","children":[["$","$L6",null,{"href":"/","aria-label":"SuperDerm home","className":"footer-logo","children":["$","img",null,{"src":"/assets/logos/superderm-lockup-reversed.svg","alt":"","width":169,"height":28,"decoding":"async"}]}],["$","div",null,{"className":"footer-orgs","children":[["$","p",null,{"className":"footer-label","children":"Jointly Organized by"}],["$","ul",null,{"className":"org-strip","children":[["$","li","PediaMed AI Lab",{"children":["$","a",null,{"className":"org","href":"https://pediamed.ai/","rel":"noopener noreferrer","target":"_blank","aria-label":"PediaMed AI Lab","children":[["$","img",null,{"src":"/assets/partners/pediamed-mark.png","alt":"","width":215,"height":194,"style":{"height":30}}],["$","span",null,{"className":"org-name","children":"PediaMed AI Lab"}]]}]}],["$","li","Anthropic",{"children":["$","a",null,{"className":"org","href":"https://www.anthropic.com/","rel":"noopener noreferrer","target":"_blank","aria-label":"Anthropic","children":[["$","img",null,{"src":"/assets/partners/anthropic-on-dark.svg","alt":"","width":590,"height":68,"style":{"height":13}}],false]}]}],["$","li","Ti Kay",{"children":["$","a",null,{"className":"org","href":"https://www.tikayhaiti.org/","rel":"noopener noreferrer","target":"_blank","aria-label":"Ti Kay","children":[null,["$","span",null,{"className":"org-name org-name-only","children":"Ti Kay"}]]}]}],["$","li","NYU Langone Health",{"children":["$","a",null,{"className":"org","href":"https://nyulangone.org/","rel":"noopener noreferrer","target":"_blank","aria-label":"NYU Langone Health","children":[["$","img",null,{"src":"/assets/partners/nyu-langone-health-on-dark.svg","alt":"","width":128,"height":54,"style":{"height":34}}],false]}]}],["$","li","University of Illinois Urbana-Champaign",{"children":["$","a",null,{"className":"org","href":"https://illinois.edu/","rel":"noopener noreferrer","target":"_blank","aria-label":"University of Illinois Urbana-Champaign","children":[["$","img",null,{"src":"/assets/partners/illinois-logo-on-dark.svg","alt":"","width":151,"height":26,"style":{"height":20}}],false]}]}]]}]]}]]}],["$","p",null,{"className":"footer-notice","children":["For research discussion only: nothing on SuperDerm, including model outputs, is medical advice or a medical diagnosis.","$Lb"]}]]}]}]]]}],"p":false,"v":null},"c":"$Qc"}]]
+0:{"P":null,"c":["","docs","annotation","guide",""],"q":"","i":false,"t":{"t":{"s":"","h":528,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/2t399uweowg-8.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/318vd_uhd1odi.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"Rxtg3q_variable","children":["$","body",null,{"children":[["$","a",null,{"className":"skip-link","href":"#main","children":"Skip to content"}],null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"className":"page-shell page-body","style":{"textAlign":"center","paddingTop":72},"children":[["$","h1",null,{"children":"Page Not Found"}],["$","p",null,{"children":"The page may have moved, or it may be a private item you do not have access to."}],["$","div",null,{"className":"button-row","style":{"justifyContent":"center"},"children":[["$","$L6",null,{"className":"button","href":"/","children":"SuperDerm Home"}],["$","$L6",null,{"className":"button button-secondary","href":"/docs","children":"Documentation"}]]}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}]}]]}],"p":false,"v":null},"c":"$Q7"},"h":{"r":["$","$1","h",{"children":[null,["$","$L14",null,{"children":"$L15"}],["$","$L17",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$18",null,{"name":"Next.Metadata","children":"$L19"}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":false,"v":null}},"m":"$undefined","G":["$1a",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/2t399uweowg-8.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"ciYUpWrf9GFgGN6TZDzhq"}
+1c:I[96559,["$2"],"OutletBoundary"]
+1e:I[20531,["$2","$5"],"SiteNav"]
+:HL["/assets/logos/superderm-lockup.svg","image"]
+b:["$","$L6",null,{"href":"/docs/reference/image-credits","children":"Image Credits"}]
+d:["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+10:["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+12:["$","$1","c",{"children":["$L1b",null,["$","$L1c",null,{"children":["$","$18",null,{"name":"Next.MetadataOutlet","children":"$@1d"}]}]]}]
+8:["$","header",null,{"className":"site-header","children":["$","div",null,{"className":"header-inner page-shell","children":[["$","$L6",null,{"className":"wordmark","href":"/","aria-label":"SuperDerm home","children":["$","img",null,{"src":"/assets/logos/superderm-lockup.svg","alt":"","width":193,"height":32,"decoding":"async"}]}],["$","$L1e",null,{"user":null,"accounts":false}]]}]}]
+e:C
+1f:T1e7e,<h1>Annotation Guide</h1>
+<p>This guide explains what to mark and how to record it. For the controls, see <a href="/docs/annotation/workspace">Using the workspace</a>. Each queue also has its own instructions and guide version, shown on the queue card and in the workspace.</p>
+<h2 id="before-you-start">Before You Start<a class="heading-anchor" href="#before-you-start" aria-label="Link to this section">#</a></h2>
+<ul>
+<li>Describe only what the photographs show. Do not share your answers, or look up other people&#39;s answers for the same item.</li>
+<li>SuperDerm uses clinical photographs from a phone or camera. If a photo is not a clinical photograph, for example a dermoscopic image or a micrograph, select <strong>Not a clinical photograph</strong> in an image quality task, or give that reason under <strong>Unable to assess these photos</strong> in a visible findings task.</li>
+<li>If you see a face, a tattoo, a name, legible text or any other identifying detail, select <strong>Report Privacy Concern</strong>. The photo is paused immediately.</li>
+<li>A description of visible findings is not a diagnosis.</li>
+</ul>
+<h2 id="task-types">Task Types<a class="heading-anchor" href="#task-types" aria-label="Link to this section">#</a></h2>
+<table>
+<thead>
+<tr>
+<th>Task</th>
+<th>Unit</th>
+<th>What you record</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Image quality</td>
+<td>One photograph</td>
+<td>Whether the photo can be assessed, and why not</td>
+</tr>
+<tr>
+<td>Visible findings</td>
+<td>All photos of one case</td>
+<td>Regions around visible findings, with descriptive terms</td>
+</tr>
+<tr>
+<td>Diagnosis verification</td>
+<td>One case</td>
+<td>In preparation (Planned). It will require verified clinical credentials</td>
+</tr>
+</tbody></table>
+<h2 id="image-quality">Image Quality<a class="heading-anchor" href="#image-quality" aria-label="Link to this section">#</a></h2>
+<p>Choose one rating:</p>
+<table>
+<thead>
+<tr>
+<th>Rating</th>
+<th>Use it when</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Assessable</td>
+<td>The finding of interest is visible clearly enough to describe.</td>
+</tr>
+<tr>
+<td>Partially assessable</td>
+<td>Some of the finding can be described, but part is obscured, out of focus or out of frame.</td>
+</tr>
+<tr>
+<td>Unable to assess</td>
+<td>The photograph cannot be assessed.</td>
+</tr>
+</tbody></table>
+<p>Then select any reasons that apply: <strong>Obstruction</strong>, <strong>Poor focus</strong>, <strong>Inadequate lighting</strong>, <strong>Not a clinical photograph</strong>. You can add a short note.</p>
+<p><strong>Unable to assess</strong> needs a reason: select a flag or write a note. It records the photo&#39;s quality only. It never means that no lesion is present.</p>
+<h2 id="visible-findings">Visible Findings<a class="heading-anchor" href="#visible-findings" aria-label="Link to this section">#</a></h2>
+<p>Mark each visible finding as a separate region.</p>
+<ol>
+<li>Choose <strong>Box</strong> or <strong>Polygon</strong> and outline the finding on the photo where you see it. Each region belongs to exactly one photo.</li>
+<li>Choose one or more terms that describe the finding.</li>
+<li>Set <strong>Certain</strong> or <strong>Uncertain</strong>.</li>
+<li>Optionally add a note. Notes are stored with your annotation and are not published.</li>
+</ol>
+<h3 id="box-or-polygon">Box or Polygon<a class="heading-anchor" href="#box-or-polygon" aria-label="Link to this section">#</a></h3>
+<ul>
+<li>Use a <strong>box</strong> for a compact finding. It is quickest to draw and to check.</li>
+<li>Use a <strong>polygon</strong> when the outline is irregular, or when a box would take in a lot of unaffected skin.</li>
+<li>Outline the whole finding and no more.</li>
+</ul>
+<p>The platform checks every shape before you can submit:</p>
+<ul>
+<li>A box must have positive width and height.</li>
+<li>A polygon needs at least three distinct vertices, no repeated consecutive vertices, a positive area and no crossing edges.</li>
+<li>Every point must lie inside the photo.</li>
+</ul>
+<h3 id="terms">Terms<a class="heading-anchor" href="#terms" aria-label="Link to this section">#</a></h3>
+<p>Choose terms from the morphology vocabulary, up to 12 per region. Filter the list by name; each term shows a short definition.</p>
+<table>
+<thead>
+<tr>
+<th>Group</th>
+<th>Terms</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Primary lesions</td>
+<td>Macule, Patch, Papule, Plaque, Nodule, Vesicle, Bulla, Pustule, Wheal, Cyst</td>
+</tr>
+<tr>
+<td>Secondary changes</td>
+<td>Scale, Crust, Erosion, Ulcer, Fissure, Excoriation, Lichenification, Atrophy, Scar, Eschar or necrosis</td>
+</tr>
+<tr>
+<td>Vascular and purpuric</td>
+<td>Petechiae, Purpura, Telangiectasia</td>
+</tr>
+<tr>
+<td>Arrangement and shape</td>
+<td>Annular, Grouped or clustered, Linear, Umbilicated</td>
+</tr>
+</tbody></table>
+<p><strong>This vocabulary is a DRAFT</strong> (version 0.1.0-draft). It has not been clinically approved. The clinical lead and vocabulary maintainers must approve its names, definitions and size conventions before a real annotation batch opens. The workspace labels it &quot;Vocabulary 0.1.0-draft (draft)&quot;. Size cut-offs, such as macule versus patch, vary between references and often cannot be measured in a photograph. The approved guide will say how to handle unknown size.</p>
+<p><strong>Term Not Listed.</strong> If no term fits, describe the finding in a few words under <strong>Term Not Listed</strong>. Every region needs at least one term or a &quot;Term not listed&quot; description. Reviewers see these descriptions. They are excluded from public release packages.</p>
+<h3 id="certain-or-uncertain">Certain or Uncertain<a class="heading-anchor" href="#certain-or-uncertain" aria-label="Link to this section">#</a></h3>
+<p>Every region starts as <strong>Certain</strong>. Choose <strong>Uncertain</strong> when you are not sure that the region shows the finding, or that the chosen terms fit. The reviewer sees your choice, and it is kept in releases.</p>
+<h3 id="finding-without-location">Finding Without Location<a class="heading-anchor" href="#finding-without-location" aria-label="Link to this section">#</a></h3>
+<p>Select <strong>Finding Without Location</strong> when you can describe a finding but cannot mark where it is on the photo. The region is recorded as <strong>Cannot localize</strong>. It still needs a term or a &quot;Term not listed&quot; description.</p>
+<h3 id="unable-to-assess-these-photos">Unable to Assess These Photos<a class="heading-anchor" href="#unable-to-assess-these-photos" aria-label="Link to this section">#</a></h3>
+<p>If none of the photos can be assessed, tick <strong>Unable to assess these photos</strong> and explain why. Remove any findings first; the two cannot be combined. Like the image quality rating, it records only that the photos could not be assessed. It never means that no lesion is present.</p>
+<h2 id="independent-assessment">Independent Assessment<a class="heading-anchor" href="#independent-assessment" aria-label="Link to this section">#</a></h2>
+<p>During an independent assessment you see only the photographs, the instructions and your own annotations. Model predictions, other people&#39;s annotations and any answer supplied with the task are hidden.</p>
+<p>Some queues collect several independent assessments of each case; the queue card shows how many. Each assessment is reviewed on its own.</p>
+<p>An assisted mode, which would show model suggestions and record the model, its version and your edits, is Planned.</p>
+<h2 id="after-you-submit">After You Submit<a class="heading-anchor" href="#after-you-submit" aria-label="Link to this section">#</a></h2>
+<p>An independent clinical reviewer checks your work. You see the outcome in your workspace. See <a href="/docs/annotation/review">How review works</a>.</p>
+1b:["$","div",null,{"className":"page-shell docs-layout","children":[["$","nav",null,{"className":"docs-nav","aria-label":"Documentation","children":[["$","div","Start Here",{"children":[["$","h2",null,{"children":"Start Here"}],["$","ul",null,{"children":[["$","li","index",{"children":["$","$L6",null,{"href":"/docs","aria-current":"$undefined","children":"SuperDerm Documentation"}]}],["$","li","getting-started/overview",{"children":["$","$L6",null,{"href":"/docs/getting-started/overview","aria-current":"$undefined","children":"Getting Started"}]}],["$","li","getting-started/roles",{"children":["$","$L6",null,{"href":"/docs/getting-started/roles","aria-current":"$undefined","children":"Roles and Permissions"}]}]]}]]}],["$","div","Annotate",{"children":[["$","h2",null,{"children":"Annotate"}],["$","ul",null,{"children":[["$","li","annotation/guide",{"children":["$","$L6",null,{"href":"/docs/annotation/guide","aria-current":"page","children":"Annotation Guide"}]}],["$","li","annotation/workspace",{"children":["$","$L6",null,{"href":"/docs/annotation/workspace","aria-current":"$undefined","children":"Using the Workspace"}]}],["$","li","annotation/review",{"children":["$","$L6",null,{"href":"/docs/annotation/review","aria-current":"$undefined","children":"How Review Works"}]}]]}]]}],["$","div","Contribute",{"children":[["$","h2",null,{"children":"Contribute"}],["$","ul",null,{"children":[["$","li","contributing/cases",{"children":["$","$L6",null,{"href":"/docs/contributing/cases","aria-current":"$undefined","children":"Contribute a Case"}]}],["$","li","contributing/datasets",{"children":["$","$L6",null,{"href":"/docs/contributing/datasets","aria-current":"$undefined","children":"Share a Dataset"}]}],["$","li","contributing/models",{"children":["$","$L6",null,{"href":"/docs/contributing/models","aria-current":"$undefined","children":"Share a Model or Tool"}]}],["$","li","contributing/questions",{"children":["$","$L6",null,{"href":"/docs/contributing/questions","aria-current":"$undefined","children":"Propose a Clinical Question"}]}],["$","li","contributing/credit",{"children":["$","$L6",null,{"href":"/docs/contributing/credit","aria-current":"$undefined","children":"Contribution and Credit"}]}]]}]]}],["$","div","Data",{"children":[["$","h2",null,{"children":"Data"}],["$","ul",null,{"children":[["$","li","data/privacy",{"children":["$","$L6",null,{"href":"/docs/data/privacy","aria-current":"$undefined","children":"Data and Privacy"}]}],["$","li","data/access-and-withdrawal",{"children":["$","$L6",null,{"href":"/docs/data/access-and-withdrawal","aria-current":"$undefined","children":"Data Access and Withdrawal"}]}],["$","li","data/issues",{"children":["$","$L6",null,{"href":"/docs/data/issues","aria-current":"$undefined","children":"Report an Issue"}]}]]}]]}],["$","div","Evaluate",{"children":[["$","h2",null,{"children":"Evaluate"}],["$","ul",null,{"children":[["$","li","evaluation/train-and-evaluate",{"children":["$","$L6",null,{"href":"/docs/evaluation/train-and-evaluate","aria-current":"$undefined","children":"Train and Evaluate a Model"}]}],["$","li","evaluation/scoring",{"children":["$","$L6",null,{"href":"/docs/evaluation/scoring","aria-current":"$undefined","children":"Community Scoring Protocol"}]}],["$","li","evaluation/paper-protocol",{"children":["$","$L6",null,{"href":"/docs/evaluation/paper-protocol","aria-current":"$undefined","children":"How the Preprint's Evaluation Differs"}]}]]}]]}],["$","div","Reference",{"children":[["$","h2",null,{"children":"Reference"}],["$","ul",null,{"children":[["$","li","reference/release-format",{"children":["$","$L6",null,{"href":"/docs/reference/release-format","aria-current":"$undefined","children":"Release Package Format"}]}],["$","li","reference/api",{"children":["$","$L6",null,{"href":"/docs/reference/api","aria-current":"$undefined","children":"API Overview"}]}],["$","li","reference/citing",{"children":["$","$L6",null,{"href":"/docs/reference/citing","aria-current":"$undefined","children":"How to Cite SuperDerm"}]}],["$","li","reference/image-credits",{"children":["$","$L6",null,{"href":"/docs/reference/image-credits","aria-current":"$undefined","children":"Image Credits"}]}]]}]]}]]}],["$","article",null,{"className":"prose","children":[["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$1f"}}],"$L20"]}]]}]
+20:["$","p",null,{"className":"doc-updated","children":["Last updated ","21 Nov 2026",". Found something unclear? ",["$","$L6",null,{"className":"link","href":"/docs/data/issues","children":"Report an Issue"}],"."]}]
+15:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#FCFCFA"}]]
+21:I[78936,["$2"],"IconMark"]
+19:[["$","title","0",{"children":"Annotation Guide · Documentation · SuperDerm"}],["$","meta","1",{"name":"description","content":"An open research community for clinical skin photographs. Contribute documented cases, annotate visible findings, and build models for common and rare skin diseases."}],["$","link","2",{"rel":"manifest","href":"/assets/favicons/site.webmanifest","crossOrigin":"$undefined"}],["$","meta","3",{"property":"og:title","content":"SuperDerm — An Open Platform and Community for Clinical Skin Photographs"}],["$","meta","4",{"property":"og:description","content":"An open research community for clinical skin photographs. Contribute documented cases, annotate visible findings, and build models for common and rare skin diseases."}],["$","meta","5",{"property":"og:site_name","content":"SuperDerm"}],["$","meta","6",{"property":"og:image","content":"https://superderm.org/assets/social/superderm-og.png"}],["$","meta","7",{"property":"og:image:width","content":"1200"}],["$","meta","8",{"property":"og:image:height","content":"630"}],["$","meta","9",{"property":"og:image:alt","content":"SuperDerm"}],["$","meta","10",{"property":"og:type","content":"website"}],["$","meta","11",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","12",{"name":"twitter:title","content":"SuperDerm — An Open Platform and Community for Clinical Skin Photographs"}],["$","meta","13",{"name":"twitter:description","content":"An open research community for clinical skin photographs. Contribute documented cases, annotate visible findings, and build models for common and rare skin diseases."}],["$","meta","14",{"name":"twitter:image","content":"https://superderm.org/assets/social/superderm-og.png"}],["$","link","15",{"rel":"icon","href":"/assets/favicons/favicon.ico","sizes":"16x16 32x32 48x48"}],["$","link","16",{"rel":"icon","href":"/assets/favicons/favicon-32.png","sizes":"32x32","type":"image/png"}],["$","link","17",{"rel":"icon","href":"/assets/favicons/favicon.svg","type":"image/svg+xml"}],["$","link","18",{"rel":"apple-touch-icon","href":"/assets/favicons/apple-touch-icon.png","sizes":"180x180"}],["$","$L21","19",{}]]
+1d:null

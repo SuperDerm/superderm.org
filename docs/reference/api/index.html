@@ -1,0 +1,389 @@
+<!DOCTYPE html><html lang="en" class="Rxtg3q_variable"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="preload" href="/_next/static/media/InterVariable-s.p.3s0wwav3ax-t6.woff2" as="font" crossorigin="" type="font/woff2"/><link rel="preload" href="/assets/logos/superderm-lockup.svg" as="image"/><link rel="preload" href="/assets/logos/superderm-lockup-reversed.svg" as="image"/><link rel="preload" href="/assets/partners/pediamed-mark.png" as="image"/><link rel="preload" href="/assets/partners/anthropic-on-dark.svg" as="image"/><link rel="preload" href="/assets/partners/nyu-langone-health-on-dark.svg" as="image"/><link rel="preload" href="/assets/partners/illinois-logo-on-dark.svg" as="image"/><link rel="stylesheet" href="/_next/static/chunks/2t399uweowg-8.css" data-precedence="next"/><link rel="preload" as="script" fetchPriority="low" href="/_next/static/chunks/44ks15hsmz9f7.js"/><script src="/_next/static/chunks/3ahao9b726y7t.js" async=""></script><script src="/_next/static/chunks/10c454jx9phor.js" async=""></script><script src="/_next/static/chunks/3e13k3hzk_1gy.js" async=""></script><script src="/_next/static/chunks/turbopack-077hmtqrhcoji.js" async=""></script><script src="/_next/static/chunks/318vd_uhd1odi.js" async=""></script><script src="/_next/static/chunks/09viwtfz8qtst.js" async=""></script><script src="/_next/static/chunks/3nk8si_t3fsa6.js" async=""></script><meta name="theme-color" content="#FCFCFA"/><title>API Overview · Documentation · SuperDerm</title><meta name="description" content="An open research community for clinical skin photographs. Contribute documented cases, annotate visible findings, and build models for common and rare skin diseases."/><link rel="manifest" href="/assets/favicons/site.webmanifest"/><meta property="og:title" content="SuperDerm — An Open Platform and Community for Clinical Skin Photographs"/><meta property="og:description" content="An open research community for clinical skin photographs. Contribute documented cases, annotate visible findings, and build models for common and rare skin diseases."/><meta property="og:site_name" content="SuperDerm"/><meta property="og:image" content="https://superderm.org/assets/social/superderm-og.png"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image:alt" content="SuperDerm"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="SuperDerm — An Open Platform and Community for Clinical Skin Photographs"/><meta name="twitter:description" content="An open research community for clinical skin photographs. Contribute documented cases, annotate visible findings, and build models for common and rare skin diseases."/><meta name="twitter:image" content="https://superderm.org/assets/social/superderm-og.png"/><link rel="icon" href="/assets/favicons/favicon.ico" sizes="16x16 32x32 48x48"/><link rel="icon" href="/assets/favicons/favicon-32.png" sizes="32x32" type="image/png"/><link rel="icon" href="/assets/favicons/favicon.svg" type="image/svg+xml"/><link rel="apple-touch-icon" href="/assets/favicons/apple-touch-icon.png" sizes="180x180"/><meta name="next-size-adjust" content=""/><script src="/_next/static/chunks/0cz1d0mv5g_q7.js" noModule=""></script></head><body><div hidden=""><!--$--><!--/$--></div><a class="skip-link" href="#main">Skip to content</a><header class="site-header"><div class="header-inner page-shell"><a class="wordmark" aria-label="SuperDerm home" href="/"><img src="/assets/logos/superderm-lockup.svg" alt="" width="193" height="32" decoding="async"/></a><button type="button" class="nav-toggle" aria-expanded="false" aria-controls="site-navigation" aria-label="Open menu"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 6h16M4 12h16M4 18h16"></path></svg></button><nav id="site-navigation" class="site-navigation" aria-label="Main navigation" data-open="false"><a href="/learn/">Learn</a><a href="/contribute/">Contribute</a><a href="/datasets/">Data</a><a href="/models/">Models</a><a href="/challenges/">Challenges</a><a href="/community/">Community</a></nav></div></header><main id="main"><div class="page-shell docs-layout"><nav class="docs-nav" aria-label="Documentation"><div><h2>Start Here</h2><ul><li><a href="/docs/">SuperDerm Documentation</a></li><li><a href="/docs/getting-started/overview/">Getting Started</a></li><li><a href="/docs/getting-started/roles/">Roles and Permissions</a></li></ul></div><div><h2>Annotate</h2><ul><li><a href="/docs/annotation/guide/">Annotation Guide</a></li><li><a href="/docs/annotation/workspace/">Using the Workspace</a></li><li><a href="/docs/annotation/review/">How Review Works</a></li></ul></div><div><h2>Contribute</h2><ul><li><a href="/docs/contributing/cases/">Contribute a Case</a></li><li><a href="/docs/contributing/datasets/">Share a Dataset</a></li><li><a href="/docs/contributing/models/">Share a Model or Tool</a></li><li><a href="/docs/contributing/questions/">Propose a Clinical Question</a></li><li><a href="/docs/contributing/credit/">Contribution and Credit</a></li></ul></div><div><h2>Data</h2><ul><li><a href="/docs/data/privacy/">Data and Privacy</a></li><li><a href="/docs/data/access-and-withdrawal/">Data Access and Withdrawal</a></li><li><a href="/docs/data/issues/">Report an Issue</a></li></ul></div><div><h2>Evaluate</h2><ul><li><a href="/docs/evaluation/train-and-evaluate/">Train and Evaluate a Model</a></li><li><a href="/docs/evaluation/scoring/">Community Scoring Protocol</a></li><li><a href="/docs/evaluation/paper-protocol/">How the Preprint&#x27;s Evaluation Differs</a></li></ul></div><div><h2>Reference</h2><ul><li><a href="/docs/reference/release-format/">Release Package Format</a></li><li><a aria-current="page" href="/docs/reference/api/">API Overview</a></li><li><a href="/docs/reference/citing/">How to Cite SuperDerm</a></li><li><a href="/docs/reference/image-credits/">Image Credits</a></li></ul></div></nav><article class="prose"><div><h1>API Overview</h1>
+<p>SuperDerm&#39;s pages use a JSON API, and you can call it too. This page lists every endpoint that exists today.</p>
+<h2 id="base-path">Base Path<a class="heading-anchor" href="#base-path" aria-label="Link to this section">#</a></h2>
+<p>Pages are served under <code>/superderm</code> and the API under <code>/superderm/api/v1</code>. The paths below start at <code>/api/v1</code>; on the public site, add the <code>/superderm</code> prefix. Request and response bodies are JSON, and responses are marked <code>Cache-Control: no-store</code>.</p>
+<h2 id="authentication">Authentication<a class="heading-anchor" href="#authentication" aria-label="Link to this section">#</a></h2>
+<ul>
+<li>Sign in with an email link: <code>POST /api/v1/auth/signin</code>, then <code>POST /api/v1/auth/verify</code> with the token from the link. This sets the session cookie <code>sd_session</code>.</li>
+<li>The cookie is HTTP-only, <code>SameSite=Lax</code>, secure on HTTPS, limited to the base path, and valid for 30 days. There are no API keys.</li>
+<li>Public reads need no session. Other endpoints return <code>401</code> without one, and check your role, project and the object&#39;s permitted uses on every request.</li>
+</ul>
+<h2 id="same-origin-writes">Same-Origin Writes<a class="heading-anchor" href="#same-origin-writes" aria-label="Link to this section">#</a></h2>
+<p>Every <code>POST</code>, <code>PUT</code> and <code>PATCH</code> must carry an <code>Origin</code> header matching the site. Requests from other sites, or without the header, get <code>403</code> (&quot;Requests that change data must come from the SuperDerm site.&quot;). In practice, writes come from SuperDerm pages, including the browser console on a SuperDerm page.</p>
+<h2 id="idempotency-key">Idempotency-Key<a class="heading-anchor" href="#idempotency-key" aria-label="Link to this section">#</a></h2>
+<p>Endpoints marked † accept an <code>Idempotency-Key</code> header of up to 200 characters.</p>
+<ul>
+<li>The same user, endpoint, key and request body return the original status and response; the work is not repeated.</li>
+<li>The same key with a different body returns <code>409 IDEMPOTENCY_KEY_REUSED</code>.</li>
+<li>Without the header, the request runs normally.</li>
+</ul>
+<p>Drafts use version numbers instead: a stale <code>version</code> returns <code>409 DRAFT_VERSION_CONFLICT</code> with the saved copy.</p>
+<h2 id="errors">Errors<a class="heading-anchor" href="#errors" aria-label="Link to this section">#</a></h2>
+<p>Errors use one envelope:</p>
+<pre><code class="language-json">{&quot;error&quot;:{&quot;code&quot;:&quot;INVALID_ANNOTATION&quot;,&quot;message&quot;:&quot;Finding 1: choose at least one term or describe it under “Term not listed”.&quot;,&quot;field&quot;:&quot;regions.0.termIds&quot;,&quot;retryable&quot;:false,&quot;details&quot;:[{&quot;path&quot;:&quot;regions.0.termIds&quot;,&quot;message&quot;:&quot;Finding 1: choose at least one term or describe it under “Term not listed”.&quot;}]}}
+</code></pre>
+<p><code>code</code> is stable and <code>message</code> is for people. <code>field</code> (the input at fault), <code>row</code> (a manifest row) and <code>details</code> appear only when they apply. <code>retryable</code> says whether the same request may succeed later.</p>
+<table>
+<thead>
+<tr>
+<th>Status</th>
+<th>Meaning</th>
+<th>Example codes</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>401</td>
+<td>Not signed in</td>
+<td><code>UNAUTHENTICATED</code></td>
+</tr>
+<tr>
+<td>403</td>
+<td>Not permitted, or not sent from the site</td>
+<td><code>FORBIDDEN</code>, <code>NOT_ELIGIBLE</code></td>
+</tr>
+<tr>
+<td>404</td>
+<td>Unknown, or private and not visible to you</td>
+<td><code>NOT_FOUND</code></td>
+</tr>
+<tr>
+<td>409</td>
+<td>State or version conflict</td>
+<td><code>DRAFT_VERSION_CONFLICT</code>, <code>LEASE_EXPIRED</code>, <code>ALREADY_SUBMITTED</code>, <code>IDEMPOTENCY_KEY_REUSED</code></td>
+</tr>
+<tr>
+<td>410</td>
+<td>Gone</td>
+<td><code>LINK_EXPIRED</code>, <code>WITHDRAWN</code></td>
+</tr>
+<tr>
+<td>413</td>
+<td>Over a size limit</td>
+<td><code>FILE_TOO_LARGE</code></td>
+</tr>
+<tr>
+<td>422</td>
+<td>Invalid input</td>
+<td><code>INVALID_INPUT</code>, <code>INVALID_ANNOTATION</code>, <code>INVALID_SUBMISSION</code>, <code>FEEDBACK_REQUIRED</code></td>
+</tr>
+<tr>
+<td>429</td>
+<td>Rate limited: 5 sign-in links per address in 15 minutes, or 100 uploads in 10 minutes (2,000 for an import)</td>
+<td><code>RATE_LIMITED</code></td>
+</tr>
+<tr>
+<td>500</td>
+<td>Unexpected error; retryable</td>
+<td><code>INTERNAL</code></td>
+</tr>
+</tbody></table>
+<h2 id="endpoints">Endpoints<a class="heading-anchor" href="#endpoints" aria-label="Link to this section">#</a></h2>
+<h3 id="account">Account<a class="heading-anchor" href="#account" aria-label="Link to this section">#</a></h3>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Path</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>POST</td>
+<td><code>/auth/signin</code></td>
+<td>Email a single-use sign-in link</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/auth/verify</code></td>
+<td>Exchange the link&#39;s token for a session</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/auth/signout</code></td>
+<td>End the session</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/auth/dev-login</code></td>
+<td>Development only; disabled in production</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/me</code></td>
+<td>Your display name, credit, roles and accepted rules version</td>
+</tr>
+<tr>
+<td>PATCH</td>
+<td><code>/me</code></td>
+<td>Update your profile and credit preference</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/me/accept-rules</code></td>
+<td>Record the rules and terms versions you accept</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/notifications</code></td>
+<td>Your 50 latest notifications</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/notifications/{id}/read</code></td>
+<td>Mark one notification, or <code>all</code>, as read</td>
+</tr>
+</tbody></table>
+<h3 id="public-data">Public Data<a class="heading-anchor" href="#public-data" aria-label="Link to this section">#</a></h3>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Path</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>GET</td>
+<td><code>/public/summary</code></td>
+<td>Live public counts with their definitions</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/datasets</code></td>
+<td>Dataset and vocabulary entries, and external sources</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/models</code></td>
+<td>Model and tool entries</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/challenges</code></td>
+<td>Challenges with their stage and question</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/examples</code></td>
+<td>Teaching cases, without answers</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/examples/{id}</code></td>
+<td>One teaching case, without answers</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/examples/{id}/reveal</code></td>
+<td>The documented diagnosis, baseline output and expert annotations</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/vocabularies/{id}</code></td>
+<td>Download a vocabulary as JSON</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/releases</code></td>
+<td>Published releases with checksums and counts</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/releases/{id}/package</code></td>
+<td>Download a release package</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/releases/{id}/download</code></td>
+<td>The package link, SHA-256 and size</td>
+</tr>
+</tbody></table>
+<h3 id="annotation-and-review">Annotation and Review<a class="heading-anchor" href="#annotation-and-review" aria-label="Link to this section">#</a></h3>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Path</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>POST</td>
+<td><code>/projects/{slug}/join</code></td>
+<td>Join an annotation project</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/practice/{batch}</code></td>
+<td>Grade a practice answer</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/annotations/tasks</code></td>
+<td>Queues with your eligibility, counts and drafts</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/annotations/tasks/claim</code> †</td>
+<td>Claim a task; an empty queue returns <code>{&quot;assignment&quot;:null,&quot;reason&quot;:&quot;QUEUE_EMPTY&quot;}</code></td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/annotations/assignments/{id}</code></td>
+<td>Your assignment, draft and photo links</td>
+</tr>
+<tr>
+<td>PUT</td>
+<td><code>/annotations/assignments/{id}/draft</code></td>
+<td>Save a draft with its version</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/annotations/assignments/{id}/renew</code></td>
+<td>Extend an active claim</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/annotations/assignments/{id}/submit</code> †</td>
+<td>Submit for review</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/annotations/assignments/{id}/skip</code></td>
+<td>Release the claim</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/assets/{id}/view-ticket</code></td>
+<td>A 5-minute ticket for one photo and purpose</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/reviews</code></td>
+<td>Your review queue</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/reviews/{id}/decision</code> †</td>
+<td>Decide on an annotation revision</td>
+</tr>
+</tbody></table>
+<h3 id="contributions">Contributions<a class="heading-anchor" href="#contributions" aria-label="Link to this section">#</a></h3>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Path</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>POST</td>
+<td><code>/submissions</code> †</td>
+<td>Create a case, dataset, model or question draft</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/submissions/{id}</code></td>
+<td>Read your submission</td>
+</tr>
+<tr>
+<td>PATCH</td>
+<td><code>/submissions/{id}</code></td>
+<td>Update a draft with its version</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/submissions/{id}/submit</code> †</td>
+<td>Lock the revision and get the receipt</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/uploads</code></td>
+<td>Reserve a private upload slot</td>
+</tr>
+<tr>
+<td>PUT</td>
+<td><code>/uploads/{id}/content</code></td>
+<td>Send the file</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/uploads/{id}/complete</code></td>
+<td>Check the size and checksum</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/issues</code></td>
+<td>Report an issue</td>
+</tr>
+</tbody></table>
+<h3 id="staff">Staff<a class="heading-anchor" href="#staff" aria-label="Link to this section">#</a></h3>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Path</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>POST</td>
+<td><code>/admin/imports</code></td>
+<td>Start an import from a registered source</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/admin/imports/{id}/validate</code></td>
+<td>Validate a manifest</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/admin/imports/{id}/ingest</code> †</td>
+<td>Import accepted rows</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/admin/privacy/{id}</code></td>
+<td>Clear or reject a derived photo</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/admin/roles</code></td>
+<td>Grant a role</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/admin/roles/{id}/revoke</code></td>
+<td>Revoke a role</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/annotation-batches</code></td>
+<td>Configure a batch</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/annotation-batches/{id}/{action}</code></td>
+<td>Open, pause or close a batch</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/releases</code></td>
+<td>Create a draft release</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/releases/{id}/freeze</code> †</td>
+<td>Freeze a draft and queue its build</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/releases/{id}/publish</code></td>
+<td>Publish a built release</td>
+</tr>
+</tbody></table>
+<p>Photos are served outside the API, by the media gateway at <code>/superderm/media/{ticket}</code>. See <a href="/docs/data/privacy#the-media-gateway">Data and privacy</a>.</p>
+<h2 id="planned">Planned<a class="heading-anchor" href="#planned" aria-label="Link to this section">#</a></h2>
+<p>Not yet available: challenge enrollment, input packages and prediction attempts; access requests; credential verification requests; withdrawal requests and release withdrawal; a combined workspace endpoint; background job status; and cursor pagination of lists.</p>
+</div><p class="doc-updated">Last updated <!-- -->21 Nov 2026<!-- -->. Found something unclear? <a class="link" href="/docs/data/issues/">Report an Issue</a>.</p></article></div><!--$--><!--/$--></main><footer class="site-footer"><div class="page-shell"><div class="footer-main"><a aria-label="SuperDerm home" class="footer-logo" href="/"><img src="/assets/logos/superderm-lockup-reversed.svg" alt="" width="169" height="28" decoding="async"/></a><div class="footer-orgs"><p class="footer-label">Jointly Organized by</p><ul class="org-strip"><li><a class="org" href="https://pediamed.ai/" rel="noopener noreferrer" target="_blank" aria-label="PediaMed AI Lab"><img src="/assets/partners/pediamed-mark.png" alt="" width="215" height="194" style="height:30px"/><span class="org-name">PediaMed AI Lab</span></a></li><li><a class="org" href="https://www.anthropic.com/" rel="noopener noreferrer" target="_blank" aria-label="Anthropic"><img src="/assets/partners/anthropic-on-dark.svg" alt="" width="590" height="68" style="height:13px"/></a></li><li><a class="org" href="https://www.tikayhaiti.org/" rel="noopener noreferrer" target="_blank" aria-label="Ti Kay"><span class="org-name org-name-only">Ti Kay</span></a></li><li><a class="org" href="https://nyulangone.org/" rel="noopener noreferrer" target="_blank" aria-label="NYU Langone Health"><img src="/assets/partners/nyu-langone-health-on-dark.svg" alt="" width="128" height="54" style="height:34px"/></a></li><li><a class="org" href="https://illinois.edu/" rel="noopener noreferrer" target="_blank" aria-label="University of Illinois Urbana-Champaign"><img src="/assets/partners/illinois-logo-on-dark.svg" alt="" width="151" height="26" style="height:20px"/></a></li></ul></div></div><p class="footer-notice">For research discussion only: nothing on SuperDerm, including model outputs, is medical advice or a medical diagnosis.<a href="/docs/reference/image-credits/">Image Credits</a></p></div></footer><script id="_R_">(globalThis["TURBOPACK"] || (globalThis["TURBOPACK"] = [])).push({"otherChunks":["static/chunks/44ks15hsmz9f7.js","static/chunks/3ahao9b726y7t.js","static/chunks/10c454jx9phor.js","static/chunks/3e13k3hzk_1gy.js"],"runtimeModuleIds":[35320]});</script><script src="/_next/static/chunks/44ks15hsmz9f7.js" async=""></script><script>(self.__next_f=self.__next_f||[]).push([0])</script><script>self.__next_f.push([1,"1:\"$Sreact.fragment\"\n2:\"/_next/static/chunks/318vd_uhd1odi.js\"\n3:I[46912,[\"$2\"],\"default\"]\n4:I[1384,[\"$2\"],\"default\"]\n5:\"/_next/static/chunks/09viwtfz8qtst.js\"\n6:I[49848,[\"$2\",\"$5\"],\"\"]\n9:\"/_next/static/chunks/3nk8si_t3fsa6.js\"\na:I[86979,[\"$2\",\"$5\",\"$9\"],\"default\"]\n13:\"ViewportBoundary\"\n14:I[96559,[\"$2\"],\"$13\"]\n16:\"MetadataBoundary\"\n17:I[96559,[\"$2\"],\"$16\"]\n18:\"$Sreact.suspense\"\n1a:I[2501,[\"$2\"],\"default\",1]\n:HL[\"/_next/static/chunks/2t399uweowg-8.css\",\"style\"]\n:HL[\"/_next/static/media/InterVariable-s.p.3s0wwav3ax-t6.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/assets/logos/superderm-lockup-reversed.svg\",\"image\"]\n:HL[\"/assets/partners/pediamed-mark.png\",\"image\"]\n:HL[\"/assets/partners/anthropic-on-dark.svg\",\"image\"]\n:HL[\"/assets/partners/nyu-langone-health-on-dark.svg\",\"image\"]\n:HL[\"/assets/partners/illinois-logo-on-dark.svg\",\"image\"]\ne:X\n11:[[\"children\",{\"s\":\"__PAGE__\",\"h\":512,\"d\":{\"r\":\"$L12\",\"p\":false,\"v\":null}}]]\nf:[[\"children\",{\"s\":{\"n\":\"slug\",\"t\":\"oc\",\"k\":\"reference/api\",\"s\":[]},\"h\":512,\"d\":{\"r\":\"$L10\",\"p\":false,\"v\":\"$e\"},\"c\":\"$Q11\"}]]\nc:[[\"children\",{\"s\":\"docs\",\"h\":512,\"d\":{\"r\":\"$Ld\",\"p\":false,\"v\":\"$e\"},\"c\":\"$Qf\"}]]\n7:[[\"children\",{\"s\":\"(site)\",\"h\":512,\"d\":{\"r\":[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"script\",\"script-0\",{\"src\":\"/_next/static/chunks/09viwtfz8qtst.js\",\"async\":true,\"nonce\":\"$undefined\"}]],[\"$L8\",[\"$\",\"main\",null,{\"id\":\"main\",\"children\":[\"$\",\"$L3\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$a\",\"errorStyles\":[],\"errorScripts\":[[\"$\",\"script\",\"script-0\",{\"src\":\"/_next/static/chunks/3nk8si_t3fsa6.js\",\"async\":true,\"nonce\":\"$undefined\"}]],\"template\":[\"$\",\"$L4\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[\"$\",\"div\",null,{\"className\":\"page-shell page-body\",\"style\":{\"textAlign\":\"center\",\"paddingTop\":72},\"children\":[[\"$\",\"h1\",null,{\"children\":\"Page Not Found\"}],[\"$\",\"p\",null,{\"children\":\"The page may have moved, or it may be a private item you do not have access to.\"}],[\"$\",\"div\",null,{\"className\":\"button-row\",\"style\":{\"justifyContent\":\"center\"},\"children\":[[\"$\",\"$L6\",null,{\"className\":\"button\",\"href\":\"/\",\"children\":\"SuperDerm Home\"}],[\"$\",\"$L6\",null,{\"className\":\"button button-secondary\",\"href\":\"/docs\",\"children\":\"Documentation\"}]]}]]}],[]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]}],[\"$\",\"footer\",null,{\"className\":\"site-footer\",\"children\":[\"$\",\"div\",null,{\"className\":\"page-shell\",\"children\":[[\"$\",\"div\",null,{\"className\":\"footer-main\",\"children\":[[\"$\",\"$L6\",null,{\"href\":\"/\",\"aria-label\":\"SuperDerm home\",\"className\":\"footer-logo\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/logos/superderm-lockup-reversed.svg\",\"alt\":\"\",\"width\":169,\"height\":28,\"decoding\":\"async\"}]}],[\"$\",\"div\",null,{\"className\":\"footer-orgs\",\"children\":[[\"$\",\"p\",null,{\"className\":\"footer-label\",\"children\":\"Jointly Organized by\"}],[\"$\",\"ul\",null,{\"className\":\"org-strip\",\"children\":[[\"$\",\"li\",\"PediaMed AI Lab\",{\"children\":[\"$\",\"a\",null,{\"className\":\"org\",\"href\":\"https://pediamed.ai/\",\"rel\":\"noopener noreferrer\",\"target\":\"_blank\",\"aria-label\":\"PediaMed AI Lab\",\"children\":[[\"$\",\"img\",null,{\"src\":\"/assets/partners/pediamed-mark.png\",\"alt\":\"\",\"width\":215,\"height\":194,\"style\":{\"height\":30}}],[\"$\",\"span\",null,{\"className\":\"org-name\",\"children\":\"PediaMed AI Lab\"}]]}]}],[\"$\",\"li\",\"Anthropic\",{\"children\":[\"$\",\"a\",null,{\"className\":\"org\",\"href\":\"https://www.anthropic.com/\",\"rel\":\"noopener noreferrer\",\"target\":\"_blank\",\"aria-label\":\"Anthropic\",\"children\":[[\"$\",\"img\",null,{\"src\":\"/assets/partners/anthropic-on-dark.svg\",\"alt\":\"\",\"width\":590,\"height\":68,\"style\":{\"height\":13}}],false]}]}],[\"$\",\"li\",\"Ti Kay\",{\"children\":[\"$\",\"a\",null,{\"className\":\"org\",\"href\":\"https://www.tikayhaiti.org/\",\"rel\":\"noopener noreferrer\",\"target\":\"_blank\",\"aria-label\":\"Ti Kay\",\"children\":[null,[\"$\",\"span\",null,{\"className\":\"org-name org-name-only\",\"children\":\"Ti Kay\"}]]}]}],[\"$\",\"li\",\"NYU Langone Health\",{\"children\":[\"$\",\"a\",null,{\"className\":\"org\",\"href\":\"https://nyulangone.org/\",\"rel\":\"noopener noreferrer\",\"target\":\"_blank\",\"aria-label\":\"NYU Langone Health\",\"children\":[[\"$\",\"img\",null,{\"src\":\"/assets/partners/nyu-langone-health-on-dark.svg\",\"alt\":\"\",\"width\":128,\"height\":54,\"style\":{\"height\":34}}],false]}]}],[\"$\",\"li\",\"University of Illinois Urbana-Champaign\",{\"children\":[\"$\",\"a\",null,{\"className\":\"org\",\"href\":\"https://illinois.edu/\",\"rel\":\"noopener noreferrer\",\"target\":\"_blank\",\"aria-label\":\"University of Illinois Urbana-Champaign\",\"children\":[[\"$\",\"img\",null,{\"src\":\"/assets/partners/illinois-logo-on-dark.svg\",\"alt\":\"\",\"width\":151,\"height\":26,\"style\":{\"height\":20}}],false]}]}]]}]]}]]}],[\"$\",\"p\",null,{\"className\":\"footer-notice\",\"children\":[\"For research discussion only: nothing on SuperDerm, including model outputs, is medical advice or a medical diagnosis.\",\"$Lb\"]}]]}]}]]]}],\"p\":false,\"v\":null},\"c\":\"$Qc\"}]]\n0:{\"P\":null,\"c\":[\"\",\"docs\",\"reference\",\"api\",\"\"],\"q\":\"\",\"i\":false,\"t\":{\"t\":{\"s\":\"\",\"h\":528,\"d\":{\"r\":[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/chunks/2t399uweowg-8.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}],[\"$\",\"script\",\"script-0\",{\"src\":\"/_next/static/chunks/318vd_uhd1odi.js\",\"async\":true,\"nonce\":\"$undefined\"}]],[\"$\",\"html\",null,{\"lang\":\"en\",\"className\":\"Rxtg3q_variable\",\"children\":[\"$\",\"body\",null,{\"children\":[[\"$\",\"a\",null,{\"className\":\"skip-link\",\"href\":\"#main\",\"children\":\"Skip to content\"}],null,[\"$\",\"$L3\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L4\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[\"$\",\"div\",null,{\"className\":\"page-shell page-body\",\"style\":{\"textAlign\":\"center\",\"paddingTop\":72},\"children\":[[\"$\",\"h1\",null,{\"children\":\"Page Not Found\"}],[\"$\",\"p\",null,{\"children\":\"The page may have moved, or it may be a private item you do not have access to.\"}],[\"$\",\"div\",null,{\"className\":\"button-row\",\"style\":{\"justifyContent\":\"center\"},\"children\":[[\"$\",\"$L6\",null,{\"className\":\"button\",\"href\":\"/\",\"children\":\"SuperDerm Home\"}],[\"$\",\"$L6\",null,{\"className\":\"button button-secondary\",\"href\":\"/docs\",\"children\":\"Documentation\"}]]}]]}],[]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}]}]]}],\"p\":false,\"v\":null},\"c\":\"$Q7\"},\"h\":{\"r\":[\"$\",\"$1\",\"h\",{\"children\":[null,[\"$\",\"$L14\",null,{\"children\":\"$L15\"}],[\"$\",\"$L17\",null,{\"children\":[[\"$\",\"div\",null,{\"hidden\":true,\"children\":[\"$\",\"$18\",null,{\"name\":\"Next.Metadata\",\"children\":\"$L19\"}]}],null]}],[\"$\",\"meta\",null,{\"name\":\"next-size-adjust\",\"content\":\"\"}]]}],\"p\":false,\"v\":null}},\"m\":\"$undefined\",\"G\":[\"$1a\",[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/chunks/2t399uweowg-8.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}]]],\"S\":true,\"r\":\"$undefined\",\"s\":\"$undefined\",\"a\":\"$undefined\",\"l\":\"$undefined\",\"p\":\"$undefined\",\"d\":\"$undefined\",\"b\":\"ciYUpWrf9GFgGN6TZDzhq\"}\n1c:I[96559,[\"$2\"],\"OutletBoundary\"]\n1e:I[20531,[\"$2\",\"$5\"],\"SiteNav\"]\n:HL[\"/assets/logos/superderm-lockup.svg\",\"image\"]\nb:[\"$\",\"$L6\",null,{\"href\":\"/docs/reference/image-credits\",\"children\":\"Image Credits\"}]\nd:[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"$L3\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L4\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}]\n10:[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"$L3\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L4\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}]\n12:[\"$\",\"$1\",\"c\",{\"children\":[\"$L1b\",null,[\"$\",\"$L1c\",null,{\"children\":[\"$\",\"$18\",null,{\"name\":\"Next.MetadataOutlet\",\"children\":\"$@1d\"}]}]]}]\n8:[\"$\",\"header\",null,{\"className\":\"site-header\",\"children\":[\"$\",\"div\",null,{\"className\":\"header-inner page-shell\",\"children\":[[\"$\",\"$L6\",null,{\"className\":\"wordmark\",\"href\":\"/\",\"aria-label\":\"SuperDerm home\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/logos/superderm-lockup.svg\",\"alt\":\"\",\"width\":193,\"height\":32,\"decoding\":\"async\"}]}],[\"$\",\"$L1e\",null,{\"user\":null,\"accounts\":false}]]}]}]\ne:C\n1f:T2eed,\u003ch1\u003eAPI Overview\u003c/h1\u003e\n\u003cp\u003eSuperDerm\u0026#39;s pages use a JSON API, and you can call it too. This page lists every endpoint that exists today.\u003c/p\u003e\n\u003ch2 id=\"base-path\"\u003eBase Path\u003ca class=\"heading-anchor\" href=\"#base-path\" aria-label=\"Link to this section\"\u003e#\u003c/a\u003e\u003c/h2\u003e\n\u003cp\u003ePages are served under \u003ccode\u003e/superderm\u003c/code\u003e and the API under \u003ccode\u003e/superderm/api/v1\u003c/code\u003e. The paths below start at \u003ccode\u003e/api/v1\u003c/code\u003e; on the public site, add the \u003ccode\u003e/superderm\u003c/code\u003e prefix. Request and response bodies are JSON, and responses are marked \u003ccode\u003eCache-Control: no-store\u003c/code\u003e.\u003c/p\u003e\n\u003ch2 id=\"authentication\"\u003eAuthentication\u003ca class=\"heading-anchor\" href=\"#authentication\" aria-label=\"Link to this section\"\u003e#\u003c/a\u003e\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eSign in with an email link: \u003ccode\u003ePOST /api/v1/auth/signin\u003c/code\u003e, then \u003ccode\u003ePOST /api/v1/auth/verify\u003c/code\u003e with the token from the link. This sets the session cookie \u003ccode\u003esd_session\u003c/code\u003e.\u003c/li\u003e\n\u003cli\u003eThe cookie is HTTP-only, \u003ccode\u003eSameSite=Lax\u003c/code\u003e, secure on HTTPS, limited to the base path, and valid for 30 days. There are no API keys.\u003c/li\u003e\n\u003cli\u003ePublic reads need no session. Other endpoints return \u003ccode\u003e401\u003c/code\u003e without one, and check your role, project and the object\u0026#39;s permitted uses on every request.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2 id=\"same-origin-writes\"\u003eSame-Origin Writes\u003ca class=\"heading-anchor\" href=\"#same-origin-writes\" aria-label=\"Link to this section\"\u003e#\u003c/a\u003e\u003c/h2\u003e\n\u003cp\u003eEvery \u003ccode\u003ePOST\u003c/code\u003e, \u003ccode\u003ePUT\u003c/code\u003e and \u003ccode\u003ePATCH\u003c/code\u003e must carry an \u003ccode\u003eOrigin\u003c/code\u003e header matching the site. Requests from other sites, or without the header, get \u003ccode\u003e403\u003c/code\u003e (\u0026quot;Requests that change data must come from the SuperDerm site.\u0026quot;). In practice, writes come from SuperDerm pages, including the browser console on a SuperDerm page.\u003c/p\u003e\n\u003ch2 id=\"idempotency-key\"\u003eIdempotency-Key\u003ca class=\"heading-anchor\" href=\"#idempotency-key\" aria-label=\"Link to this section\"\u003e#\u003c/a\u003e\u003c/h2\u003e\n\u003cp\u003eEndpoints marked † accept an \u003ccode\u003eIdempotency-Key\u003c/code\u003e header of up to 200 characters.\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eThe same user, endpoint, key and request body return the original status and response; the work is not repeated.\u003c/li\u003e\n\u003cli\u003eThe same key with a different body returns \u003ccode\u003e409 IDEMPOTENCY_KEY_REUSED\u003c/code\u003e.\u003c/li\u003e\n\u003cli\u003eWithout the header, the request runs normally.\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eDrafts use version numbers instead: a stale \u003ccode\u003eversion\u003c/code\u003e returns \u003ccode\u003e409 DRAFT_VERSION_CONFLICT\u003c/code\u003e with the saved copy.\u003c/p\u003e\n\u003ch2 id=\"errors\"\u003eErrors\u003ca class=\"heading-anchor\" href=\"#errors\" aria-label=\"Link to this section\"\u003e#\u003c/a\u003e\u003c/h2\u003e\n\u003cp\u003eErrors use one envelope:\u003c/p\u003e\n\u003cpre\u003e\u003ccode class=\"language-json\"\u003e{\u0026quot;error\u0026quot;:{\u0026quot;code\u0026quot;:\u0026quot;INVALID_ANNOTATION\u0026quot;,\u0026quot;message\u0026quot;:\u0026quot;Finding 1: choose at least one term or describe it under “Term not listed”.\u0026quot;,\u0026quot;field\u0026quot;:\u0026quot;regions.0.termIds\u0026quot;,\u0026quot;retryable\u0026quot;:false,\u0026quot;details\u0026quot;:[{\u0026quot;path\u0026quot;:\u0026quot;regions.0.termIds\u0026quot;,\u0026quot;message\u0026quot;:\u0026quot;Finding 1: choose at least one term or describe it under “Term not listed”.\u0026quot;}]}}\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003e\u003ccode\u003ecode\u003c/code\u003e is stable and \u003ccode\u003emessage\u003c/code\u003e is for people. \u003ccode\u003efield\u003c/code\u003e (the input at fault), \u003ccode\u003erow\u003c/code\u003e (a manifest row) and \u003ccode\u003edetails\u003c/code\u003e appear only when they apply. \u003ccode\u003eretryable\u003c/code\u003e says whether the same request may succeed later.\u003c/p\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003eStatus\u003c/th\u003e\n\u003cth\u003eMeaning\u003c/th\u003e\n\u003cth\u003eExample codes\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\u003ctr\u003e\n\u003ctd\u003e401\u003c/td\u003e\n\u003ctd\u003eNot signed in\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003eUNAUTHENTICATED\u003c/code\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e403\u003c/td\u003e\n\u003ctd\u003eNot permitted, or not sent from the site\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003eFORBIDDEN\u003c/code\u003e, \u003ccode\u003eNOT_ELIGIBLE\u003c/code\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e404\u003c/td\u003e\n\u003ctd\u003eUnknown, or private and not visible to you\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003eNOT_FOUND\u003c/code\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e409\u003c/td\u003e\n\u003ctd\u003eState or version conflict\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003eDRAFT_VERSION_CONFLICT\u003c/code\u003e, \u003ccode\u003eLEASE_EXPIRED\u003c/code\u003e, \u003ccode\u003eALREADY_SUBMITTED\u003c/code\u003e, \u003ccode\u003eIDEMPOTENCY_KEY_REUSED\u003c/code\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e410\u003c/td\u003e\n\u003ctd\u003eGone\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003eLINK_EXPIRED\u003c/code\u003e, \u003ccode\u003eWITHDRAWN\u003c/code\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e413\u003c/td\u003e\n\u003ctd\u003eOver a size limit\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003eFILE_TOO_LARGE\u003c/code\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e422\u003c/td\u003e\n\u003ctd\u003eInvalid input\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003eINVALID_INPUT\u003c/code\u003e, \u003ccode\u003eINVALID_ANNOTATION\u003c/code\u003e, \u003ccode\u003eINVALID_SUBMISSION\u003c/code\u003e, \u003ccode\u003eFEEDBACK_REQUIRED\u003c/code\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e429\u003c/td\u003e\n\u003ctd\u003eRate limited: 5 sign-in links per address in 15 minutes, or 100 uploads in 10 minutes (2,000 for an import)\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003eRATE_LIMITED\u003c/code\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e500\u003c/td\u003e\n\u003ctd\u003eUnexpected error; retryable\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003eINTERNAL\u003c/code\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\u003c/table\u003e\n\u003ch2 id=\"endpoints\"\u003eEndpoints\u003ca class=\"heading-anchor\" href=\"#endpoints\" aria-label=\"Link to this section\"\u003e#\u003c/a\u003e\u003c/h2\u003e\n\u003ch3 id=\"account\"\u003eAccount\u003ca class=\"heading-anchor\" href=\"#account\" aria-label=\"Link to this section\"\u003e#\u003c/a\u003e\u003c/h3\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003eMethod\u003c/th\u003e\n\u003cth\u003ePath\u003c/th\u003e\n\u003cth\u003ePurpose\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\u003ctr\u003e\n\u003ctd\u003ePOST\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003e/auth/signin\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003eEmail a single-use sign-in link\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePOST\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003e/auth/verify\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003eExchange the link\u0026#39;s token for a session\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePOST\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003e/auth/signout\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003eEnd the session\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePOST\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003e/auth/dev-login\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003eDevelopment only; disabled in production\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGET\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003e/me\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003eYour display name, credit, roles and accepted rules version\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePATCH\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003e/me\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003eUpdate your profile and credit preference\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePOST\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003e/me/accept-rules\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003eRecord the rules and terms versions you accept\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGET\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003e/notifications\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003eYour 50 latest notifications\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePOST\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003e/notifications/{id}/read\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003eMark one notification, or \u003ccode\u003eall\u003c/code\u003e, as read\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\u003c/table\u003e\n\u003ch3 id=\"public-data\"\u003ePublic Data\u003ca class=\"heading-anchor\" href=\"#public-data\" aria-label=\"Link to this section\"\u003e#\u003c/a\u003e\u003c/h3\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003eMethod\u003c/th\u003e\n\u003cth\u003ePath\u003c/th\u003e\n\u003cth\u003ePurpose\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\u003ctr\u003e\n\u003ctd\u003eGET\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003e/public/summary\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003eLive public counts with their definitions\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGET\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003e/datasets\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003eDataset and vocabulary entries, and external sources\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGET\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003e/models\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003eModel and tool entries\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGET\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003e/challenges\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003eChallenges with their stage and question\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGET\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003e/examples\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003eTeaching cases, without answers\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGET\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003e/examples/{id}\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003eOne teaching case, without answers\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGET\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003e/examples/{id}/reveal\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003eThe documented diagnosis, baseline output and expert annotations\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGET\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003e/vocabularies/{id}\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003eDownload a vocabulary as JSON\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGET\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003e/releases\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003ePublished releases with checksums and counts\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGET\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003e/releases/{id}/package\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003eDownload a release package\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePOST\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003e/releases/{id}/download\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003eThe package link, SHA-256 and size\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\u003c/table\u003e\n\u003ch3 id=\"annotation-and-review\"\u003eAnnotation and Review\u003ca class=\"heading-anchor\" href=\"#annotation-and-review\" aria-label=\"Link to this section\"\u003e#\u003c/a\u003e\u003c/h3\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003eMethod\u003c/th\u003e\n\u003cth\u003ePath\u003c/th\u003e\n\u003cth\u003ePurpose\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\u003ctr\u003e\n\u003ctd\u003ePOST\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003e/projects/{slug}/join\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003eJoin an annotation project\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePOST\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003e/practice/{batch}\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003eGrade a practice answer\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGET\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003e/annotations/tasks\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003eQueues with your eligibility, counts and drafts\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePOST\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003e/annotations/tasks/claim\u003c/code\u003e †\u003c/td\u003e\n\u003ctd\u003eClaim a task; an empty queue returns \u003ccode\u003e{\u0026quot;assignment\u0026quot;:null,\u0026quot;reason\u0026quot;:\u0026quot;QUEUE_EMPTY\u0026quot;}\u003c/code\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGET\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003e/annotations/assignments/{id}\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003eYour assignment, draft and photo links\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePUT\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003e/annotations/assignments/{id}/draft\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003eSave a draft with its version\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePOST\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003e/annotations/assignments/{id}/renew\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003eExtend an active claim\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePOST\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003e/annotations/assignments/{id}/submit\u003c/code\u003e †\u003c/td\u003e\n\u003ctd\u003eSubmit for review\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePOST\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003e/annotations/assignments/{id}/skip\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003eRelease the claim\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePOST\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003e/assets/{id}/view-ticket\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003eA 5-minute ticket for one photo and purpose\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGET\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003e/reviews\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003eYour review queue\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePOST\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003e/reviews/{id}/decision\u003c/code\u003e †\u003c/td\u003e\n\u003ctd\u003eDecide on an annotation revision\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\u003c/table\u003e\n\u003ch3 id=\"contributions\"\u003eContributions\u003ca class=\"heading-anchor\" href=\"#contributions\" aria-label=\"Link to this section\"\u003e#\u003c/a\u003e\u003c/h3\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003eMethod\u003c/th\u003e\n\u003cth\u003ePath\u003c/th\u003e\n\u003cth\u003ePurpose\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\u003ctr\u003e\n\u003ctd\u003ePOST\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003e/submissions\u003c/code\u003e †\u003c/td\u003e\n\u003ctd\u003eCreate a case, dataset, model or question draft\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGET\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003e/submissions/{id}\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003eRead your submission\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePATCH\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003e/submissions/{id}\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003eUpdate a draft with its version\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePOST\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003e/submissions/{id}/submit\u003c/code\u003e †\u003c/td\u003e\n\u003ctd\u003eLock the revision and get the receipt\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePOST\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003e/uploads\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003eReserve a private upload slot\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePUT\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003e/uploads/{id}/content\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003eSend the file\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePOST\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003e/uploads/{id}/complete\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003eCheck the size and checksum\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePOST\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003e/issues\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003eReport an issue\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\u003c/table\u003e\n\u003ch3 id=\"staff\"\u003eStaff\u003ca class=\"heading-anchor\" href=\"#staff\" aria-label=\"Link to this section\"\u003e#\u003c/a\u003e\u003c/h3\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003eMethod\u003c/th\u003e\n\u003cth\u003ePath\u003c/th\u003e\n\u003cth\u003ePurpose\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\u003ctr\u003e\n\u003ctd\u003ePOST\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003e/admin/imports\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003eStart an import from a registered source\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePOST\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003e/admin/imports/{id}/validate\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003eValidate a manifest\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePOST\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003e/admin/imports/{id}/ingest\u003c/code\u003e †\u003c/td\u003e\n\u003ctd\u003eImport accepted rows\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePOST\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003e/admin/privacy/{id}\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003eClear or reject a derived photo\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePOST\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003e/admin/roles\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003eGrant a role\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePOST\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003e/admin/roles/{id}/revoke\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003eRevoke a role\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePOST\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003e/annotation-batches\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003eConfigure a batch\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePOST\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003e/annotation-batches/{id}/{action}\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003eOpen, pause or close a batch\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePOST\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003e/releases\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003eCreate a draft release\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePOST\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003e/releases/{id}/freeze\u003c/code\u003e †\u003c/td\u003e\n\u003ctd\u003eFreeze a draft and queue its build\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePOST\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003e/releases/{id}/publish\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003ePublish a built release\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\u003c/table\u003e\n\u003cp\u003ePhotos are served outside the API, by the media gateway at \u003ccode\u003e/superderm/media/{ticket}\u003c/code\u003e. See \u003ca href=\"/docs/data/privacy#the-media-gateway\"\u003eData and privacy\u003c/a\u003e.\u003c/p\u003e\n\u003ch2 id=\"planned\"\u003ePlanned\u003ca class=\"heading-anchor\" href=\"#planned\" aria-label=\"Link to this section\"\u003e#\u003c/a\u003e\u003c/h2\u003e\n\u003cp\u003eNot yet available: challenge enrollment, input packages and prediction attempts; access requests; credential verification requests; withdrawal requests and release withdrawal; a combined workspace endpoint; background job status; and cursor pagination of lists.\u003c/p\u003e\n1b:[\"$\",\"div\",null,{\"className\":\"page-shell docs-layout\",\"children\":[[\"$\",\"nav\",null,{\"className\":\"docs-nav\",\"aria-label\":\"Documentation\",\"children\":[[\"$\",\"div\",\"Start Here\",{\"children\":[[\"$\",\"h2\",null,{\"children\":\"Start Here\"}],[\"$\",\"ul\",null,{\"children\":[[\"$\",\"li\",\"index\",{\"children\":[\"$\",\"$L6\",null,{\"href\":\"/docs\",\"aria-current\":\"$undefined\",\"children\":\"SuperDerm Documentation\"}]}],[\"$\",\"li\",\"getting-started/overview\",{\"children\":[\"$\",\"$L6\",null,{\"href\":\"/docs/getting-started/overview\",\"aria-current\":\"$undefined\",\"children\":\"Getting Started\"}]}],[\"$\",\"li\",\"getting-started/roles\",{\"children\":[\"$\",\"$L6\",null,{\"href\":\"/docs/getting-started/roles\",\"aria-current\":\"$undefined\",\"children\":\"Roles and Permissions\"}]}]]}]]}],[\"$\",\"div\",\"Annotate\",{\"children\":[[\"$\",\"h2\",null,{\"children\":\"Annotate\"}],[\"$\",\"ul\",null,{\"children\":[[\"$\",\"li\",\"annotation/guide\",{\"children\":[\"$\",\"$L6\",null,{\"href\":\"/docs/annotation/guide\",\"aria-current\":\"$undefined\",\"children\":\"Annotation Guide\"}]}],[\"$\",\"li\",\"annotation/workspace\",{\"children\":[\"$\",\"$L6\",null,{\"href\":\"/docs/annotation/workspace\",\"aria-current\":\"$undefined\",\"children\":\"Using the Workspace\"}]}],[\"$\",\"li\",\"annotation/review\",{\"children\":[\"$\",\"$L6\",null,{\"href\":\"/docs/annotation/review\",\"aria-current\":\"$undefined\",\"children\":\"How Review Works\"}]}]]}]]}],[\"$\",\"div\",\"Contribute\",{\"children\":[[\"$\",\"h2\",null,{\"children\":\"Contribute\"}],[\"$\",\"ul\",null,{\"children\":[[\"$\",\"li\",\"contributing/cases\",{\"children\":[\"$\",\"$L6\",null,{\"href\":\"/docs/contributing/cases\",\"aria-current\":\"$undefined\",\"children\":\"Contribute a Case\"}]}],[\"$\",\"li\",\"contributing/datasets\",{\"children\":[\"$\",\"$L6\",null,{\"href\":\"/docs/contributing/datasets\",\"aria-current\":\"$undefined\",\"children\":\"Share a Dataset\"}]}],[\"$\",\"li\",\"contributing/models\",{\"children\":[\"$\",\"$L6\",null,{\"href\":\"/docs/contributing/models\",\"aria-current\":\"$undefined\",\"children\":\"Share a Model or Tool\"}]}],[\"$\",\"li\",\"contributing/questions\",{\"children\":[\"$\",\"$L6\",null,{\"href\":\"/docs/contributing/questions\",\"aria-current\":\"$undefined\",\"children\":\"Propose a Clinical Question\"}]}],[\"$\",\"li\",\"contributing/credit\",{\"children\":[\"$\",\"$L6\",null,{\"href\":\"/docs/contributing/credit\",\"aria-current\":\"$undefined\",\"children\":\"Contribution and Credit\"}]}]]}]]}],[\"$\",\"div\",\"Data\",{\"children\":[[\"$\",\"h2\",null,{\"children\":\"Data\"}],[\"$\",\"ul\",null,{\"children\":[[\"$\",\"li\",\"data/privacy\",{\"children\":[\"$\",\"$L6\",null,{\"href\":\"/docs/data/privacy\",\"aria-current\":\"$undefined\",\"children\":\"Data and Privacy\"}]}],[\"$\",\"li\",\"data/access-and-withdrawal\",{\"children\":[\"$\",\"$L6\",null,{\"href\":\"/docs/data/access-and-withdrawal\",\"aria-current\":\"$undefined\",\"children\":\"Data Access and Withdrawal\"}]}],[\"$\",\"li\",\"data/issues\",{\"children\":[\"$\",\"$L6\",null,{\"href\":\"/docs/data/issues\",\"aria-current\":\"$undefined\",\"children\":\"Report an Issue\"}]}]]}]]}],[\"$\",\"div\",\"Evaluate\",{\"children\":[[\"$\",\"h2\",null,{\"children\":\"Evaluate\"}],[\"$\",\"ul\",null,{\"children\":[[\"$\",\"li\",\"evaluation/train-and-evaluate\",{\"children\":[\"$\",\"$L6\",null,{\"href\":\"/docs/evaluation/train-and-evaluate\",\"aria-current\":\"$undefined\",\"children\":\"Train and Evaluate a Model\"}]}],[\"$\",\"li\",\"evaluation/scoring\",{\"children\":[\"$\",\"$L6\",null,{\"href\":\"/docs/evaluation/scoring\",\"aria-current\":\"$undefined\",\"children\":\"Community Scoring Protocol\"}]}],[\"$\",\"li\",\"evaluation/paper-protocol\",{\"children\":[\"$\",\"$L6\",null,{\"href\":\"/docs/evaluation/paper-protocol\",\"aria-current\":\"$undefined\",\"children\":\"How the Preprint's Evaluation Differs\"}]}]]}]]}],[\"$\",\"div\",\"Reference\",{\"children\":[[\"$\",\"h2\",null,{\"children\":\"Reference\"}],[\"$\",\"ul\",null,{\"children\":[[\"$\",\"li\",\"reference/release-format\",{\"children\":[\"$\",\"$L6\",null,{\"href\":\"/docs/reference/release-format\",\"aria-current\":\"$undefined\",\"children\":\"Release Package Format\"}]}],[\"$\",\"li\",\"reference/api\",{\"children\":[\"$\",\"$L6\",null,{\"href\":\"/docs/reference/api\",\"aria-current\":\"page\",\"children\":\"API Overview\"}]}],[\"$\",\"li\",\"reference/citing\",{\"children\":[\"$\",\"$L6\",null,{\"href\":\"/docs/reference/citing\",\"aria-current\":\"$undefined\",\"children\":\"How to Cite SuperDerm\"}]}],[\"$\",\"li\",\"reference/image-credits\",{\"children\":[\"$\",\"$L6\",null,{\"href\":\"/docs/reference/image-credits\",\"aria-current\":\"$undefined\",\"children\":\"Image Credits\"}]}]]}]]}]]}],[\"$\",\"article\",null,{\"className\":\"prose\",\"children\":[[\"$\",\"div\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"$1f\"}}],\"$L20\"]}]]}]\n20:[\"$\",\"p\",null,{\"className\":\"doc-updated\",\"children\":[\"Last updated \",\"21 Nov 2026\",\". Found something unclear? \",[\"$\",\"$L6\",null,{\"className\":\"link\",\"href\":\"/docs/data/issues\",\"children\":\"Report an Issue\"}],\".\"]}]\n15:[[\"$\",\"meta\",\"0\",{\"charSet\":\"utf-8\"}],[\"$\",\"meta\",\"1\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}],[\"$\",\"meta\",\"2\",{\"name\":\"theme-color\",\"content\":\"#FCFCFA\"}]]\n21:I[78936,[\"$2\"],\"IconMark\"]\n19:[[\"$\",\"title\",\"0\",{\"children\":\"API Overview · Documentation · SuperDerm\"}],[\"$\",\"meta\",\"1\",{\"name\":\"description\",\"content\":\"An open research community for clinical skin photographs. Contribute documented cases, annotate visible findings, and build models for common and rare skin diseases.\"}],[\"$\",\"link\",\"2\",{\"rel\":\"manifest\",\"href\":\"/assets/favicons/site.webmanifest\",\"crossOrigin\":\"$undefined\"}],[\"$\",\"meta\",\"3\",{\"property\":\"og:title\",\"content\":\"SuperDerm — An Open Platform and Community for Clinical Skin Photographs\"}],[\"$\",\"meta\",\"4\",{\"property\":\"og:description\",\"content\":\"An open research community for clinical skin photographs. Contribute documented cases, annotate visible findings, and build models for common and rare skin diseases.\"}],[\"$\",\"meta\",\"5\",{\"property\":\"og:site_name\",\"content\":\"SuperDerm\"}],[\"$\",\"meta\",\"6\",{\"property\":\"og:image\",\"content\":\"https://superderm.org/assets/social/superderm-og.png\"}],[\"$\",\"meta\",\"7\",{\"property\":\"og:image:width\",\"content\":\"1200\"}],[\"$\",\"meta\",\"8\",{\"property\":\"og:image:height\",\"content\":\"630\"}],[\"$\",\"meta\",\"9\",{\"property\":\"og:image:alt\",\"content\":\"SuperDerm\"}],[\"$\",\"meta\",\"10\",{\"property\":\"og:type\",\"content\":\"website\"}],[\"$\",\"meta\",\"11\",{\"name\":\"twitter:card\",\"content\":\"summary_large_image\"}],[\"$\",\"meta\",\"12\",{\"name\":\"twitter:title\",\"content\":\"SuperDerm — An Open Platform and Community for Clinical Skin Photographs\"}],[\"$\",\"meta\",\"13\",{\"name\":\"twitter:description\",\"content\":\"An open research community for clinical skin photographs. Contribute documented cases, annotate visible findings, and build models for common and rare skin diseases.\"}],[\"$\",\"meta\",\"14\",{\"name\":\"twitter:image\",\"content\":\"https://superderm.org/assets/social/superderm-og.png\"}],[\"$\",\"link\",\"15\",{\"rel\":\"icon\",\"href\":\"/assets/favicons/favicon.ico\",\"sizes\":\"16x16 32x32 48x48\"}],[\"$\",\"link\",\"16\",{\"rel\":\"icon\",\"href\":\"/assets/favicons/favicon-32.png\",\"sizes\":\"32x32\",\"type\":\"image/png\"}],[\"$\",\"link\",\"17\",{\"rel\":\"icon\",\"href\":\"/assets/favicons/favicon.svg\",\"type\":\"image/svg+xml\"}],[\"$\",\"link\",\"18\",{\"rel\":\"apple-touch-icon\",\"href\":\"/assets/favicons/apple-touch-icon.png\",\"sizes\":\"180x180\"}],[\"$\",\"$L21\",\"19\",{}]]\n1d:null\n"])</script></body></html>

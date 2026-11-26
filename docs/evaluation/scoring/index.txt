@@ -1,0 +1,153 @@
+1:"$Sreact.fragment"
+2:"/_next/static/chunks/318vd_uhd1odi.js"
+3:I[46912,["$2"],"default"]
+4:I[1384,["$2"],"default"]
+5:"/_next/static/chunks/09viwtfz8qtst.js"
+6:I[49848,["$2","$5"],""]
+9:"/_next/static/chunks/3nk8si_t3fsa6.js"
+a:I[86979,["$2","$5","$9"],"default"]
+13:"ViewportBoundary"
+14:I[96559,["$2"],"$13"]
+16:"MetadataBoundary"
+17:I[96559,["$2"],"$16"]
+18:"$Sreact.suspense"
+1a:I[2501,["$2"],"default",1]
+:HL["/_next/static/chunks/2t399uweowg-8.css","style"]
+:HL["/_next/static/media/InterVariable-s.p.3s0wwav3ax-t6.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/assets/logos/superderm-lockup-reversed.svg","image"]
+:HL["/assets/partners/pediamed-mark.png","image"]
+:HL["/assets/partners/anthropic-on-dark.svg","image"]
+:HL["/assets/partners/nyu-langone-health-on-dark.svg","image"]
+:HL["/assets/partners/illinois-logo-on-dark.svg","image"]
+e:X
+11:[["children",{"s":"__PAGE__","h":512,"d":{"r":"$L12","p":false,"v":null}}]]
+f:[["children",{"s":{"n":"slug","t":"oc","k":"evaluation/scoring","s":[]},"h":512,"d":{"r":"$L10","p":false,"v":"$e"},"c":"$Q11"}]]
+c:[["children",{"s":"docs","h":512,"d":{"r":"$Ld","p":false,"v":"$e"},"c":"$Qf"}]]
+7:[["children",{"s":"(site)","h":512,"d":{"r":["$","$1","c",{"children":[[["$","script","script-0",{"src":"/_next/static/chunks/09viwtfz8qtst.js","async":true,"nonce":"$undefined"}]],["$L8",["$","main",null,{"id":"main","children":["$","$L3",null,{"parallelRouterKey":"children","error":"$a","errorStyles":[],"errorScripts":[["$","script","script-0",{"src":"/_next/static/chunks/3nk8si_t3fsa6.js","async":true,"nonce":"$undefined"}]],"template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"className":"page-shell page-body","style":{"textAlign":"center","paddingTop":72},"children":[["$","h1",null,{"children":"Page Not Found"}],["$","p",null,{"children":"The page may have moved, or it may be a private item you do not have access to."}],["$","div",null,{"className":"button-row","style":{"justifyContent":"center"},"children":[["$","$L6",null,{"className":"button","href":"/","children":"SuperDerm Home"}],["$","$L6",null,{"className":"button button-secondary","href":"/docs","children":"Documentation"}]]}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"site-footer","children":["$","div",null,{"className":"page-shell","children":[["$","div",null,{"className":"footer-main","children":[["$","$L6",null,{"href":"/","aria-label":"SuperDerm home","className":"footer-logo","children":["$","img",null,{"src":"/assets/logos/superderm-lockup-reversed.svg","alt":"","width":169,"height":28,"decoding":"async"}]}],["$","div",null,{"className":"footer-orgs","children":[["$","p",null,{"className":"footer-label","children":"Jointly Organized by"}],["$","ul",null,{"className":"org-strip","children":[["$","li","PediaMed AI Lab",{"children":["$","a",null,{"className":"org","href":"https://pediamed.ai/","rel":"noopener noreferrer","target":"_blank","aria-label":"PediaMed AI Lab","children":[["$","img",null,{"src":"/assets/partners/pediamed-mark.png","alt":"","width":215,"height":194,"style":{"height":30}}],["$","span",null,{"className":"org-name","children":"PediaMed AI Lab"}]]}]}],["$","li","Anthropic",{"children":["$","a",null,{"className":"org","href":"https://www.anthropic.com/","rel":"noopener noreferrer","target":"_blank","aria-label":"Anthropic","children":[["$","img",null,{"src":"/assets/partners/anthropic-on-dark.svg","alt":"","width":590,"height":68,"style":{"height":13}}],false]}]}],["$","li","Ti Kay",{"children":["$","a",null,{"className":"org","href":"https://www.tikayhaiti.org/","rel":"noopener noreferrer","target":"_blank","aria-label":"Ti Kay","children":[null,["$","span",null,{"className":"org-name org-name-only","children":"Ti Kay"}]]}]}],["$","li","NYU Langone Health",{"children":["$","a",null,{"className":"org","href":"https://nyulangone.org/","rel":"noopener noreferrer","target":"_blank","aria-label":"NYU Langone Health","children":[["$","img",null,{"src":"/assets/partners/nyu-langone-health-on-dark.svg","alt":"","width":128,"height":54,"style":{"height":34}}],false]}]}],["$","li","University of Illinois Urbana-Champaign",{"children":["$","a",null,{"className":"org","href":"https://illinois.edu/","rel":"noopener noreferrer","target":"_blank","aria-label":"University of Illinois Urbana-Champaign","children":[["$","img",null,{"src":"/assets/partners/illinois-logo-on-dark.svg","alt":"","width":151,"height":26,"style":{"height":20}}],false]}]}]]}]]}]]}],["$","p",null,{"className":"footer-notice","children":["For research discussion only: nothing on SuperDerm, including model outputs, is medical advice or a medical diagnosis.","$Lb"]}]]}]}]]]}],"p":false,"v":null},"c":"$Qc"}]]
+0:{"P":null,"c":["","docs","evaluation","scoring",""],"q":"","i":false,"t":{"t":{"s":"","h":528,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/2t399uweowg-8.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/318vd_uhd1odi.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"Rxtg3q_variable","children":["$","body",null,{"children":[["$","a",null,{"className":"skip-link","href":"#main","children":"Skip to content"}],null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"className":"page-shell page-body","style":{"textAlign":"center","paddingTop":72},"children":[["$","h1",null,{"children":"Page Not Found"}],["$","p",null,{"children":"The page may have moved, or it may be a private item you do not have access to."}],["$","div",null,{"className":"button-row","style":{"justifyContent":"center"},"children":[["$","$L6",null,{"className":"button","href":"/","children":"SuperDerm Home"}],["$","$L6",null,{"className":"button button-secondary","href":"/docs","children":"Documentation"}]]}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}]}]]}],"p":false,"v":null},"c":"$Q7"},"h":{"r":["$","$1","h",{"children":[null,["$","$L14",null,{"children":"$L15"}],["$","$L17",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$18",null,{"name":"Next.Metadata","children":"$L19"}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":false,"v":null}},"m":"$undefined","G":["$1a",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/2t399uweowg-8.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"ciYUpWrf9GFgGN6TZDzhq"}
+1c:I[96559,["$2"],"OutletBoundary"]
+1e:I[20531,["$2","$5"],"SiteNav"]
+:HL["/assets/logos/superderm-lockup.svg","image"]
+b:["$","$L6",null,{"href":"/docs/reference/image-credits","children":"Image Credits"}]
+d:["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+10:["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+12:["$","$1","c",{"children":["$L1b",null,["$","$L1c",null,{"children":["$","$18",null,{"name":"Next.MetadataOutlet","children":"$@1d"}]}]]}]
+8:["$","header",null,{"className":"site-header","children":["$","div",null,{"className":"header-inner page-shell","children":[["$","$L6",null,{"className":"wordmark","href":"/","aria-label":"SuperDerm home","children":["$","img",null,{"src":"/assets/logos/superderm-lockup.svg","alt":"","width":193,"height":32,"decoding":"async"}]}],["$","$L1e",null,{"user":null,"accounts":false}]]}]}]
+e:C
+1f:T1eda,<h1>Community Scoring Protocol</h1>
+<p>Challenges score open-ended diagnosis. For each case, a model returns up to three free-text diagnoses, most likely first. The community scorer, <code>superderm-eval</code> version 1.0.0, validates the predictions file and scores it against a hidden reference. Its code is published, so anyone with the same inputs can reproduce a score byte for byte.</p>
+<p>Online prediction submission is Planned. Today you can run the scorer locally.</p>
+<h2 id="prediction-format">Prediction Format<a class="heading-anchor" href="#prediction-format" aria-label="Link to this section">#</a></h2>
+<p>UTF-8 JSON Lines, one object per case:</p>
+<pre><code class="language-json">{&quot;case_id&quot;:&quot;s_demo_001&quot;,&quot;predictions&quot;:[&quot;Mpox&quot;,&quot;Varicella&quot;,&quot;Herpes Zoster&quot;]}
+{&quot;case_id&quot;:&quot;s_demo_005&quot;,&quot;predictions&quot;:[]}
+</code></pre>
+<ul>
+<li>Each row has exactly two keys, <code>case_id</code> and <code>predictions</code>.</li>
+<li><code>predictions</code> holds 0 to 3 strings, most likely first.</li>
+<li>An empty list is an explicit abstention. It scores zero and stays in every denominator.</li>
+<li>Every expected case has exactly one row, in any order. <code>case_id</code> is compared exactly.</li>
+<li>A leading byte-order mark is removed, blank lines are ignored, and <code>\r\n</code> line endings work.</li>
+</ul>
+<p>Participants check a file against a case list: plain UTF-8 text, one <code>case_id</code> per line.</p>
+<h2 id="validation">Validation<a class="heading-anchor" href="#validation" aria-label="Link to this section">#</a></h2>
+<p>A file is either valid or rejected. A rejected file is never scored, and every problem is reported with its line number.</p>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>invalid_utf8</code>, <code>invalid_json</code></td>
+<td>A line is not valid UTF-8 or JSON</td>
+</tr>
+<tr>
+<td><code>duplicate_key</code>, <code>row_not_object</code>, <code>invalid_keys</code></td>
+<td>A row is not an object with exactly <code>case_id</code> and <code>predictions</code></td>
+</tr>
+<tr>
+<td><code>case_id_not_string</code></td>
+<td><code>case_id</code> is not a string</td>
+</tr>
+<tr>
+<td><code>unknown_case_id</code></td>
+<td>The case is not in the expected list</td>
+</tr>
+<tr>
+<td><code>duplicate_case_id</code></td>
+<td>The case already appeared</td>
+</tr>
+<tr>
+<td><code>missing_case_ids</code></td>
+<td>Expected cases have no row</td>
+</tr>
+<tr>
+<td><code>predictions_not_array</code></td>
+<td><code>predictions</code> is not a list</td>
+</tr>
+<tr>
+<td><code>too_many_predictions</code></td>
+<td>More than three entries</td>
+</tr>
+<tr>
+<td><code>prediction_not_string</code></td>
+<td>An entry is not a string</td>
+</tr>
+<tr>
+<td><code>blank_prediction</code></td>
+<td>An entry is empty after normalization</td>
+</tr>
+<tr>
+<td><code>duplicate_prediction</code></td>
+<td>Two entries are the same text, or map to the same diagnosis, such as &quot;Smallpox&quot; and &quot;Variola&quot;</td>
+</tr>
+</tbody></table>
+<h2 id="normalization-and-matching">Normalization and Matching<a class="heading-anchor" href="#normalization-and-matching" aria-label="Link to this section">#</a></h2>
+<p>Answers and vocabulary names are normalized the same way: Unicode NFKC, case folding, leading and trailing whitespace removed, and each internal run of whitespace replaced by one space. Nothing else changes. There is no spelling correction or fuzzy matching: <code>&quot;  MPOX &quot;</code> and <code>&quot;monkeypox&quot;</code> match Mpox (DX-070), but <code>&quot;M-pox&quot;</code> does not.</p>
+<p>An answer matches when it equals the canonical name or a synonym of exactly one diagnosis in vocabulary <code>superderm-diagnoses</code> 1.0.0, which has 214 diagnoses and 63 synonyms. The synonyms are a draft until clinically approved, and every result reports <code>synonyms_status</code>. Unknown answers, and ambiguous names shared by two diagnoses, score zero; they are not validation errors.</p>
+<h2 id="metrics">Metrics<a class="heading-anchor" href="#metrics" aria-label="Link to this section">#</a></h2>
+<p>For k = 1, 2 or 3:</p>
+<ul>
+<li><strong>hit@k</strong> is 1 if any of the case&#39;s first k answers matches its reference diagnosis, otherwise 0. A case scores at most one hit at each k.</li>
+<li><strong>acc@k</strong>, top-k accuracy, is the sum of hit@k divided by the fixed number of reference cases. Abstentions stay in the denominator.</li>
+<li><strong>macro_recall@k</strong> takes acc@k over the cases of each diagnosis in a chosen set that has at least one reference case, then averages over those diagnoses. Results report <code>n_cases</code>, <code>n_diagnoses</code> and <code>n_diagnoses_in_set</code>.</li>
+</ul>
+<p>Example: three mpox cases all found and one smallpox case missed give a macro recall of (1 + 0) / 2 = 0.5, and an accuracy of 3/4 = 0.75.</p>
+<p>A metric can be limited to a <code>cohort</code> label or to a set of diagnoses. If no case remains, the value is <code>null</code>, with a reason. Arithmetic is exact, and each value is rounded once, to 6 decimals.</p>
+<p>The first challenge&#39;s primary metric is macro recall@3 over the prespecified rare, high-consequence diagnoses. Its secondary metrics are top-1 and top-3 accuracy over all cases and over common mimics.</p>
+<h2 id="ties-and-versions">Ties and Versions<a class="heading-anchor" href="#ties-and-versions" aria-label="Link to this section">#</a></h2>
+<ul>
+<li>Rankings use the published 6-decimal values. Equal values share a rank and the next rank is skipped: 1, 1, 3.</li>
+<li>Every result records <code>scorer_version</code>, <code>challenge_id</code>, <code>challenge_version</code>, the vocabulary <code>id</code>, <code>version</code> and <code>content_sha256</code>, and <code>predictions_sha256</code>. The same inputs always give byte-identical output.</li>
+<li>A config whose scorer or vocabulary version differs from the files in use is an error, not a warning.</li>
+<li>When evaluation opens, each team may make two valid submissions per UTC calendar day.</li>
+</ul>
+<h2 id="run-the-scorer-locally">Run the Scorer Locally<a class="heading-anchor" href="#run-the-scorer-locally" aria-label="Link to this section">#</a></h2>
+<p>You need Python 3.10 or newer. The scorer uses the standard library only. From the repository root:</p>
+<pre><code class="language-sh">cd evaluator
+python3 -m superderm_eval validate --predictions fixtures/dev/predictions.jsonl --cases fixtures/dev/cases.txt
+python3 -m superderm_eval score --predictions fixtures/dev/predictions.jsonl \
+    --reference fixtures/dev/reference.csv --config fixtures/dev/config.json
+python3 -m superderm_eval vocab-check
+python3 -m unittest discover -s tests -v
+</code></pre>
+<p>The general forms are:</p>
+<pre><code>python3 -m superderm_eval validate --predictions P (--cases LIST | --reference REF) [--vocab V]
+python3 -m superderm_eval score    --predictions P --reference REF --config C [--vocab V] [--per-case]
+python3 -m superderm_eval vocab-check [--vocab V]
+</code></pre>
+<ul>
+<li><code>--vocab</code> defaults to <code>../content/vocab/diagnoses.v1.json</code>, relative to <code>evaluator/</code>. Pass it when you run from elsewhere.</li>
+<li><code>--per-case</code> reveals the reference diagnoses, so it is for maintainers only.</li>
+<li>Every command prints one JSON document. Exit code 0 means valid or scored; 1 means the predictions file is invalid; 2 means any other problem, such as a bad argument or a version mismatch.</li>
+</ul>
+<p>On the synthetic development fixture, <code>score</code> reports acc@1 = 0.4, acc@3 = 0.6 and a primary macro_recall@3 of 1.0.</p>
+<p>Before comparing a challenge score with a published number, read <a href="/docs/evaluation/paper-protocol">How the preprint&#39;s evaluation differs</a>.</p>
+1b:["$","div",null,{"className":"page-shell docs-layout","children":[["$","nav",null,{"className":"docs-nav","aria-label":"Documentation","children":[["$","div","Start Here",{"children":[["$","h2",null,{"children":"Start Here"}],["$","ul",null,{"children":[["$","li","index",{"children":["$","$L6",null,{"href":"/docs","aria-current":"$undefined","children":"SuperDerm Documentation"}]}],["$","li","getting-started/overview",{"children":["$","$L6",null,{"href":"/docs/getting-started/overview","aria-current":"$undefined","children":"Getting Started"}]}],["$","li","getting-started/roles",{"children":["$","$L6",null,{"href":"/docs/getting-started/roles","aria-current":"$undefined","children":"Roles and Permissions"}]}]]}]]}],["$","div","Annotate",{"children":[["$","h2",null,{"children":"Annotate"}],["$","ul",null,{"children":[["$","li","annotation/guide",{"children":["$","$L6",null,{"href":"/docs/annotation/guide","aria-current":"$undefined","children":"Annotation Guide"}]}],["$","li","annotation/workspace",{"children":["$","$L6",null,{"href":"/docs/annotation/workspace","aria-current":"$undefined","children":"Using the Workspace"}]}],["$","li","annotation/review",{"children":["$","$L6",null,{"href":"/docs/annotation/review","aria-current":"$undefined","children":"How Review Works"}]}]]}]]}],["$","div","Contribute",{"children":[["$","h2",null,{"children":"Contribute"}],["$","ul",null,{"children":[["$","li","contributing/cases",{"children":["$","$L6",null,{"href":"/docs/contributing/cases","aria-current":"$undefined","children":"Contribute a Case"}]}],["$","li","contributing/datasets",{"children":["$","$L6",null,{"href":"/docs/contributing/datasets","aria-current":"$undefined","children":"Share a Dataset"}]}],["$","li","contributing/models",{"children":["$","$L6",null,{"href":"/docs/contributing/models","aria-current":"$undefined","children":"Share a Model or Tool"}]}],["$","li","contributing/questions",{"children":["$","$L6",null,{"href":"/docs/contributing/questions","aria-current":"$undefined","children":"Propose a Clinical Question"}]}],["$","li","contributing/credit",{"children":["$","$L6",null,{"href":"/docs/contributing/credit","aria-current":"$undefined","children":"Contribution and Credit"}]}]]}]]}],["$","div","Data",{"children":[["$","h2",null,{"children":"Data"}],["$","ul",null,{"children":[["$","li","data/privacy",{"children":["$","$L6",null,{"href":"/docs/data/privacy","aria-current":"$undefined","children":"Data and Privacy"}]}],["$","li","data/access-and-withdrawal",{"children":["$","$L6",null,{"href":"/docs/data/access-and-withdrawal","aria-current":"$undefined","children":"Data Access and Withdrawal"}]}],["$","li","data/issues",{"children":["$","$L6",null,{"href":"/docs/data/issues","aria-current":"$undefined","children":"Report an Issue"}]}]]}]]}],["$","div","Evaluate",{"children":[["$","h2",null,{"children":"Evaluate"}],["$","ul",null,{"children":[["$","li","evaluation/train-and-evaluate",{"children":["$","$L6",null,{"href":"/docs/evaluation/train-and-evaluate","aria-current":"$undefined","children":"Train and Evaluate a Model"}]}],["$","li","evaluation/scoring",{"children":["$","$L6",null,{"href":"/docs/evaluation/scoring","aria-current":"page","children":"Community Scoring Protocol"}]}],["$","li","evaluation/paper-protocol",{"children":["$","$L6",null,{"href":"/docs/evaluation/paper-protocol","aria-current":"$undefined","children":"How the Preprint's Evaluation Differs"}]}]]}]]}],["$","div","Reference",{"children":[["$","h2",null,{"children":"Reference"}],["$","ul",null,{"children":[["$","li","reference/release-format",{"children":["$","$L6",null,{"href":"/docs/reference/release-format","aria-current":"$undefined","children":"Release Package Format"}]}],["$","li","reference/api",{"children":["$","$L6",null,{"href":"/docs/reference/api","aria-current":"$undefined","children":"API Overview"}]}],["$","li","reference/citing",{"children":["$","$L6",null,{"href":"/docs/reference/citing","aria-current":"$undefined","children":"How to Cite SuperDerm"}]}],["$","li","reference/image-credits",{"children":["$","$L6",null,{"href":"/docs/reference/image-credits","aria-current":"$undefined","children":"Image Credits"}]}]]}]]}]]}],["$","article",null,{"className":"prose","children":[["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$1f"}}],"$L20"]}]]}]
+20:["$","p",null,{"className":"doc-updated","children":["Last updated ","21 Nov 2026",". Found something unclear? ",["$","$L6",null,{"className":"link","href":"/docs/data/issues","children":"Report an Issue"}],"."]}]
+15:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#FCFCFA"}]]
+21:I[78936,["$2"],"IconMark"]
+19:[["$","title","0",{"children":"Community Scoring Protocol · Documentation · SuperDerm"}],["$","meta","1",{"name":"description","content":"An open research community for clinical skin photographs. Contribute documented cases, annotate visible findings, and build models for common and rare skin diseases."}],["$","link","2",{"rel":"manifest","href":"/assets/favicons/site.webmanifest","crossOrigin":"$undefined"}],["$","meta","3",{"property":"og:title","content":"SuperDerm — An Open Platform and Community for Clinical Skin Photographs"}],["$","meta","4",{"property":"og:description","content":"An open research community for clinical skin photographs. Contribute documented cases, annotate visible findings, and build models for common and rare skin diseases."}],["$","meta","5",{"property":"og:site_name","content":"SuperDerm"}],["$","meta","6",{"property":"og:image","content":"https://superderm.org/assets/social/superderm-og.png"}],["$","meta","7",{"property":"og:image:width","content":"1200"}],["$","meta","8",{"property":"og:image:height","content":"630"}],["$","meta","9",{"property":"og:image:alt","content":"SuperDerm"}],["$","meta","10",{"property":"og:type","content":"website"}],["$","meta","11",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","12",{"name":"twitter:title","content":"SuperDerm — An Open Platform and Community for Clinical Skin Photographs"}],["$","meta","13",{"name":"twitter:description","content":"An open research community for clinical skin photographs. Contribute documented cases, annotate visible findings, and build models for common and rare skin diseases."}],["$","meta","14",{"name":"twitter:image","content":"https://superderm.org/assets/social/superderm-og.png"}],["$","link","15",{"rel":"icon","href":"/assets/favicons/favicon.ico","sizes":"16x16 32x32 48x48"}],["$","link","16",{"rel":"icon","href":"/assets/favicons/favicon-32.png","sizes":"32x32","type":"image/png"}],["$","link","17",{"rel":"icon","href":"/assets/favicons/favicon.svg","type":"image/svg+xml"}],["$","link","18",{"rel":"apple-touch-icon","href":"/assets/favicons/apple-touch-icon.png","sizes":"180x180"}],["$","$L21","19",{}]]
+1d:null

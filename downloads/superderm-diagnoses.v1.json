@@ -1,0 +1,2487 @@
+{
+  "id": "superderm-diagnoses",
+  "version": "1.0.0",
+  "title": "SuperDerm diagnostic taxonomy",
+  "status": "preprint",
+  "synonymsStatus": "draft",
+  "source": "SuperDerm preprint, supplementary tables of subgroups and diagnoses; rare and high-consequence designations by majority vote of five physicians (figures/data/per_dx_final.csv, 2026-11-16).",
+  "definitions": {
+    "rare": "Affects fewer than 1 in 2,000 people in the general population.",
+    "highConsequence": "Missing it at the first assessment can lead to death, lasting harm or transmission, or delay an urgent intervention such as isolation or targeted treatment."
+  },
+  "counts": {
+    "diagnoses": 214,
+    "rare": 81,
+    "highConsequence": 94,
+    "both": 70
+  },
+  "categories": [
+    {
+      "id": "infectious",
+      "name": "Infectious"
+    },
+    {
+      "id": "inflammatory",
+      "name": "Inflammatory"
+    },
+    {
+      "id": "neoplastic",
+      "name": "Neoplastic"
+    },
+    {
+      "id": "autoimmune",
+      "name": "Autoimmune"
+    },
+    {
+      "id": "genetic",
+      "name": "Genetic"
+    },
+    {
+      "id": "reactive-or-external",
+      "name": "Reactive or External"
+    },
+    {
+      "id": "pigmentary",
+      "name": "Pigmentary"
+    },
+    {
+      "id": "hair-and-nail",
+      "name": "Hair and Nail"
+    },
+    {
+      "id": "healthy-skin",
+      "name": "Healthy Skin"
+    }
+  ],
+  "subgroups": [
+    {
+      "id": "bacterial",
+      "name": "Bacterial",
+      "category": "infectious"
+    },
+    {
+      "id": "deep-fungal",
+      "name": "Deep Fungal",
+      "category": "infectious"
+    },
+    {
+      "id": "mycobacterial",
+      "name": "Mycobacterial",
+      "category": "infectious"
+    },
+    {
+      "id": "parasitic-and-infestation",
+      "name": "Parasitic and Infestation",
+      "category": "infectious"
+    },
+    {
+      "id": "superficial-fungal",
+      "name": "Superficial Fungal",
+      "category": "infectious"
+    },
+    {
+      "id": "viral",
+      "name": "Viral",
+      "category": "infectious"
+    },
+    {
+      "id": "adnexal-and-follicular",
+      "name": "Adnexal and Follicular",
+      "category": "inflammatory"
+    },
+    {
+      "id": "dermatitis-and-eczema",
+      "name": "Dermatitis and Eczema",
+      "category": "inflammatory"
+    },
+    {
+      "id": "granulomatous-and-neutrophilic",
+      "name": "Granulomatous and Neutrophilic",
+      "category": "inflammatory"
+    },
+    {
+      "id": "papulosquamous",
+      "name": "Papulosquamous",
+      "category": "inflammatory"
+    },
+    {
+      "id": "photodermatosis",
+      "name": "Photodermatosis",
+      "category": "inflammatory"
+    },
+    {
+      "id": "urticarial-and-hypersensitivity",
+      "name": "Urticarial and Hypersensitivity",
+      "category": "inflammatory"
+    },
+    {
+      "id": "benign",
+      "name": "Benign",
+      "category": "neoplastic"
+    },
+    {
+      "id": "benign-vascular",
+      "name": "Benign Vascular",
+      "category": "neoplastic"
+    },
+    {
+      "id": "malignant",
+      "name": "Malignant",
+      "category": "neoplastic"
+    },
+    {
+      "id": "premalignant",
+      "name": "Premalignant",
+      "category": "neoplastic"
+    },
+    {
+      "id": "autoimmune-bullous",
+      "name": "Autoimmune Bullous",
+      "category": "autoimmune"
+    },
+    {
+      "id": "connective-tissue",
+      "name": "Connective Tissue",
+      "category": "autoimmune"
+    },
+    {
+      "id": "metabolic-and-deposition",
+      "name": "Metabolic and Deposition",
+      "category": "autoimmune"
+    },
+    {
+      "id": "nutritional-and-endocrine",
+      "name": "Nutritional and Endocrine",
+      "category": "autoimmune"
+    },
+    {
+      "id": "systemic",
+      "name": "Systemic",
+      "category": "autoimmune"
+    },
+    {
+      "id": "vasculitis",
+      "name": "Vasculitis",
+      "category": "autoimmune"
+    },
+    {
+      "id": "keratinization",
+      "name": "Keratinization",
+      "category": "genetic"
+    },
+    {
+      "id": "mechanobullous",
+      "name": "Mechanobullous",
+      "category": "genetic"
+    },
+    {
+      "id": "mosaic-and-nevoid",
+      "name": "Mosaic and Nevoid",
+      "category": "genetic"
+    },
+    {
+      "id": "neurocutaneous-and-syndromic",
+      "name": "Neurocutaneous and Syndromic",
+      "category": "genetic"
+    },
+    {
+      "id": "vascular-malformation",
+      "name": "Vascular Malformation",
+      "category": "genetic"
+    },
+    {
+      "id": "physical-and-environmental",
+      "name": "Physical and Environmental",
+      "category": "reactive-or-external"
+    },
+    {
+      "id": "scarring",
+      "name": "Scarring",
+      "category": "reactive-or-external"
+    },
+    {
+      "id": "vascular-insufficiency",
+      "name": "Vascular Insufficiency",
+      "category": "reactive-or-external"
+    },
+    {
+      "id": "wounds-and-ulcers",
+      "name": "Wounds and Ulcers",
+      "category": "reactive-or-external"
+    },
+    {
+      "id": "hemosiderin-and-purpuric",
+      "name": "Hemosiderin and Purpuric",
+      "category": "pigmentary"
+    },
+    {
+      "id": "hyperpigmentation",
+      "name": "Hyperpigmentation",
+      "category": "pigmentary"
+    },
+    {
+      "id": "hypopigmentation",
+      "name": "Hypopigmentation",
+      "category": "pigmentary"
+    },
+    {
+      "id": "hair-and-scalp",
+      "name": "Hair and Scalp",
+      "category": "hair-and-nail"
+    },
+    {
+      "id": "nail",
+      "name": "Nail",
+      "category": "hair-and-nail"
+    },
+    {
+      "id": "normal-skin",
+      "name": "Normal Skin",
+      "category": "healthy-skin"
+    }
+  ],
+  "terms": [
+    {
+      "id": "DX-001",
+      "name": "Abscess",
+      "subgroup": "bacterial",
+      "category": "infectious",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-002",
+      "name": "Bacterial Infection NOS",
+      "subgroup": "bacterial",
+      "category": "infectious",
+      "rare": false,
+      "highConsequence": false,
+      "nos": true,
+      "synonyms": []
+    },
+    {
+      "id": "DX-003",
+      "name": "Bartonellosis (Bacillary Angiomatosis and Verruga Peruana)",
+      "subgroup": "bacterial",
+      "category": "infectious",
+      "rare": true,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": [
+        "Bartonellosis"
+      ]
+    },
+    {
+      "id": "DX-004",
+      "name": "Cellulitis",
+      "subgroup": "bacterial",
+      "category": "infectious",
+      "rare": false,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-005",
+      "name": "Chancroid",
+      "subgroup": "bacterial",
+      "category": "infectious",
+      "rare": true,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-006",
+      "name": "Cutaneous Anthrax",
+      "subgroup": "bacterial",
+      "category": "infectious",
+      "rare": true,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-007",
+      "name": "Cutaneous Diphtheria",
+      "subgroup": "bacterial",
+      "category": "infectious",
+      "rare": true,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-008",
+      "name": "Disseminated Gonococcal Infection",
+      "subgroup": "bacterial",
+      "category": "infectious",
+      "rare": true,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-009",
+      "name": "Donovanosis (Granuloma Inguinale)",
+      "subgroup": "bacterial",
+      "category": "infectious",
+      "rare": true,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": [
+        "Donovanosis",
+        "Granuloma Inguinale"
+      ]
+    },
+    {
+      "id": "DX-010",
+      "name": "Ecthyma Gangrenosum",
+      "subgroup": "bacterial",
+      "category": "infectious",
+      "rare": true,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-011",
+      "name": "Folliculitis",
+      "subgroup": "bacterial",
+      "category": "infectious",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-012",
+      "name": "Impetigo",
+      "subgroup": "bacterial",
+      "category": "infectious",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-013",
+      "name": "Lyme Disease (Erythema Migrans)",
+      "subgroup": "bacterial",
+      "category": "infectious",
+      "rare": false,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": [
+        "Lyme Disease",
+        "Erythema Migrans"
+      ]
+    },
+    {
+      "id": "DX-014",
+      "name": "Malignant Syphilis",
+      "subgroup": "bacterial",
+      "category": "infectious",
+      "rare": true,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-015",
+      "name": "Melioidosis",
+      "subgroup": "bacterial",
+      "category": "infectious",
+      "rare": true,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-016",
+      "name": "Meningococcemia",
+      "subgroup": "bacterial",
+      "category": "infectious",
+      "rare": true,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-017",
+      "name": "Necrotizing Fasciitis",
+      "subgroup": "bacterial",
+      "category": "infectious",
+      "rare": true,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-018",
+      "name": "Noma",
+      "subgroup": "bacterial",
+      "category": "infectious",
+      "rare": true,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-019",
+      "name": "Plague",
+      "subgroup": "bacterial",
+      "category": "infectious",
+      "rare": true,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-020",
+      "name": "Primary Syphilis",
+      "subgroup": "bacterial",
+      "category": "infectious",
+      "rare": true,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-021",
+      "name": "Rickettsialpox",
+      "subgroup": "bacterial",
+      "category": "infectious",
+      "rare": true,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-022",
+      "name": "Rickettsioses (Group)",
+      "subgroup": "bacterial",
+      "category": "infectious",
+      "rare": true,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": [
+        "Rickettsioses"
+      ]
+    },
+    {
+      "id": "DX-023",
+      "name": "Secondary Syphilis",
+      "subgroup": "bacterial",
+      "category": "infectious",
+      "rare": true,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-024",
+      "name": "Staphylococcal Scalded Skin Syndrome",
+      "subgroup": "bacterial",
+      "category": "infectious",
+      "rare": true,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": [
+        "SSSS"
+      ]
+    },
+    {
+      "id": "DX-025",
+      "name": "Tularemia",
+      "subgroup": "bacterial",
+      "category": "infectious",
+      "rare": true,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-026",
+      "name": "Yaws",
+      "subgroup": "bacterial",
+      "category": "infectious",
+      "rare": true,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-027",
+      "name": "Blastomycosis",
+      "subgroup": "deep-fungal",
+      "category": "infectious",
+      "rare": true,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-028",
+      "name": "Chromoblastomycosis",
+      "subgroup": "deep-fungal",
+      "category": "infectious",
+      "rare": true,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-029",
+      "name": "Coccidioidomycosis",
+      "subgroup": "deep-fungal",
+      "category": "infectious",
+      "rare": false,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-030",
+      "name": "Cryptococcosis",
+      "subgroup": "deep-fungal",
+      "category": "infectious",
+      "rare": true,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-031",
+      "name": "Cutaneous Aspergillosis",
+      "subgroup": "deep-fungal",
+      "category": "infectious",
+      "rare": true,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-032",
+      "name": "Deep Fungal Infection NOS",
+      "subgroup": "deep-fungal",
+      "category": "infectious",
+      "rare": true,
+      "highConsequence": true,
+      "nos": true,
+      "synonyms": []
+    },
+    {
+      "id": "DX-033",
+      "name": "Histoplasmosis",
+      "subgroup": "deep-fungal",
+      "category": "infectious",
+      "rare": true,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-034",
+      "name": "Mucormycosis",
+      "subgroup": "deep-fungal",
+      "category": "infectious",
+      "rare": true,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-035",
+      "name": "Mycetoma",
+      "subgroup": "deep-fungal",
+      "category": "infectious",
+      "rare": true,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-036",
+      "name": "Paracoccidioidomycosis",
+      "subgroup": "deep-fungal",
+      "category": "infectious",
+      "rare": true,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-037",
+      "name": "Sporotrichosis",
+      "subgroup": "deep-fungal",
+      "category": "infectious",
+      "rare": true,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-038",
+      "name": "Atypical Mycobacterial Infection",
+      "subgroup": "mycobacterial",
+      "category": "infectious",
+      "rare": true,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-039",
+      "name": "BCG Vaccination-Site Reaction",
+      "subgroup": "mycobacterial",
+      "category": "infectious",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-040",
+      "name": "Borderline Leprosy",
+      "subgroup": "mycobacterial",
+      "category": "infectious",
+      "rare": true,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-041",
+      "name": "Buruli Ulcer",
+      "subgroup": "mycobacterial",
+      "category": "infectious",
+      "rare": true,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-042",
+      "name": "Cutaneous Tuberculosis and Tuberculids",
+      "subgroup": "mycobacterial",
+      "category": "infectious",
+      "rare": true,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-043",
+      "name": "Lepromatous Leprosy",
+      "subgroup": "mycobacterial",
+      "category": "infectious",
+      "rare": true,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-044",
+      "name": "Leprosy",
+      "subgroup": "mycobacterial",
+      "category": "infectious",
+      "rare": true,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-045",
+      "name": "Tuberculoid Leprosy",
+      "subgroup": "mycobacterial",
+      "category": "infectious",
+      "rare": true,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-046",
+      "name": "Cutaneous Larva Migrans",
+      "subgroup": "parasitic-and-infestation",
+      "category": "infectious",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-047",
+      "name": "Leishmaniasis",
+      "subgroup": "parasitic-and-infestation",
+      "category": "infectious",
+      "rare": true,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-048",
+      "name": "Myiasis",
+      "subgroup": "parasitic-and-infestation",
+      "category": "infectious",
+      "rare": true,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-049",
+      "name": "Parasitic Infestation NOS",
+      "subgroup": "parasitic-and-infestation",
+      "category": "infectious",
+      "rare": false,
+      "highConsequence": true,
+      "nos": true,
+      "synonyms": []
+    },
+    {
+      "id": "DX-050",
+      "name": "Post-Kala-Azar Dermal Leishmaniasis (PKDL)",
+      "subgroup": "parasitic-and-infestation",
+      "category": "infectious",
+      "rare": true,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": [
+        "Post-Kala-Azar Dermal Leishmaniasis",
+        "PKDL"
+      ]
+    },
+    {
+      "id": "DX-051",
+      "name": "Scabies",
+      "subgroup": "parasitic-and-infestation",
+      "category": "infectious",
+      "rare": false,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-052",
+      "name": "Tungiasis",
+      "subgroup": "parasitic-and-infestation",
+      "category": "infectious",
+      "rare": true,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-053",
+      "name": "Candidiasis",
+      "subgroup": "superficial-fungal",
+      "category": "infectious",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-054",
+      "name": "Fungal Infection NOS",
+      "subgroup": "superficial-fungal",
+      "category": "infectious",
+      "rare": false,
+      "highConsequence": false,
+      "nos": true,
+      "synonyms": []
+    },
+    {
+      "id": "DX-055",
+      "name": "Malassezia Folliculitis",
+      "subgroup": "superficial-fungal",
+      "category": "infectious",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-056",
+      "name": "Onychomycosis",
+      "subgroup": "superficial-fungal",
+      "category": "infectious",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-057",
+      "name": "Pityriasis Versicolor (Tinea Versicolor)",
+      "subgroup": "superficial-fungal",
+      "category": "infectious",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": [
+        "Pityriasis Versicolor",
+        "Tinea Versicolor"
+      ]
+    },
+    {
+      "id": "DX-058",
+      "name": "Tinea",
+      "subgroup": "superficial-fungal",
+      "category": "infectious",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": [
+        "Dermatophytosis",
+        "Ringworm"
+      ]
+    },
+    {
+      "id": "DX-059",
+      "name": "Acute HIV",
+      "subgroup": "viral",
+      "category": "infectious",
+      "rare": false,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-060",
+      "name": "Arboviral Exanthem (Dengue-Chikungunya-Zika)",
+      "subgroup": "viral",
+      "category": "infectious",
+      "rare": false,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": [
+        "Arboviral Exanthem"
+      ]
+    },
+    {
+      "id": "DX-061",
+      "name": "Condyloma Acuminatum",
+      "subgroup": "viral",
+      "category": "infectious",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": [
+        "Anogenital Warts",
+        "Genital Warts"
+      ]
+    },
+    {
+      "id": "DX-062",
+      "name": "Cowpox",
+      "subgroup": "viral",
+      "category": "infectious",
+      "rare": true,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-063",
+      "name": "Eczema Herpeticum",
+      "subgroup": "viral",
+      "category": "infectious",
+      "rare": true,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-064",
+      "name": "Erythema Infectiosum (Parvovirus B19)",
+      "subgroup": "viral",
+      "category": "infectious",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": [
+        "Erythema Infectiosum",
+        "Fifth Disease"
+      ]
+    },
+    {
+      "id": "DX-065",
+      "name": "Hand, Foot, and Mouth Disease (HFMD)",
+      "subgroup": "viral",
+      "category": "infectious",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": [
+        "Hand, Foot, and Mouth Disease",
+        "HFMD",
+        "Hand Foot and Mouth Disease"
+      ]
+    },
+    {
+      "id": "DX-066",
+      "name": "Herpes Simplex",
+      "subgroup": "viral",
+      "category": "infectious",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-067",
+      "name": "Herpes Zoster",
+      "subgroup": "viral",
+      "category": "infectious",
+      "rare": false,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": [
+        "Shingles"
+      ]
+    },
+    {
+      "id": "DX-068",
+      "name": "Measles",
+      "subgroup": "viral",
+      "category": "infectious",
+      "rare": true,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-069",
+      "name": "Molluscum Contagiosum",
+      "subgroup": "viral",
+      "category": "infectious",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-070",
+      "name": "Mpox",
+      "subgroup": "viral",
+      "category": "infectious",
+      "rare": true,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": [
+        "Monkeypox"
+      ]
+    },
+    {
+      "id": "DX-071",
+      "name": "Orf - Milker's Nodule",
+      "subgroup": "viral",
+      "category": "infectious",
+      "rare": true,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": [
+        "Orf",
+        "Milker's Nodule"
+      ]
+    },
+    {
+      "id": "DX-072",
+      "name": "Roseola (HHV-6 and HHV-7)",
+      "subgroup": "viral",
+      "category": "infectious",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": [
+        "Roseola",
+        "Roseola Infantum",
+        "Exanthem Subitum"
+      ]
+    },
+    {
+      "id": "DX-073",
+      "name": "Rubella",
+      "subgroup": "viral",
+      "category": "infectious",
+      "rare": true,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": [
+        "German Measles"
+      ]
+    },
+    {
+      "id": "DX-074",
+      "name": "Smallpox (Variola)",
+      "subgroup": "viral",
+      "category": "infectious",
+      "rare": true,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": [
+        "Smallpox",
+        "Variola"
+      ]
+    },
+    {
+      "id": "DX-075",
+      "name": "Vaccinia (Vaccination-Site Reaction)",
+      "subgroup": "viral",
+      "category": "infectious",
+      "rare": true,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": [
+        "Vaccinia"
+      ]
+    },
+    {
+      "id": "DX-076",
+      "name": "Varicella",
+      "subgroup": "viral",
+      "category": "infectious",
+      "rare": false,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": [
+        "Chickenpox"
+      ]
+    },
+    {
+      "id": "DX-077",
+      "name": "Viral Exanthem NOS",
+      "subgroup": "viral",
+      "category": "infectious",
+      "rare": false,
+      "highConsequence": false,
+      "nos": true,
+      "synonyms": []
+    },
+    {
+      "id": "DX-078",
+      "name": "Viral Infection NOS",
+      "subgroup": "viral",
+      "category": "infectious",
+      "rare": false,
+      "highConsequence": false,
+      "nos": true,
+      "synonyms": []
+    },
+    {
+      "id": "DX-079",
+      "name": "Viral Warts",
+      "subgroup": "viral",
+      "category": "infectious",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-080",
+      "name": "Acne",
+      "subgroup": "adnexal-and-follicular",
+      "category": "inflammatory",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-081",
+      "name": "Adnexal-Follicular NOS",
+      "subgroup": "adnexal-and-follicular",
+      "category": "inflammatory",
+      "rare": false,
+      "highConsequence": false,
+      "nos": true,
+      "synonyms": []
+    },
+    {
+      "id": "DX-082",
+      "name": "Hidradenitis Suppurativa",
+      "subgroup": "adnexal-and-follicular",
+      "category": "inflammatory",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": [
+        "Acne Inversa"
+      ]
+    },
+    {
+      "id": "DX-083",
+      "name": "Keratosis Pilaris",
+      "subgroup": "adnexal-and-follicular",
+      "category": "inflammatory",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-084",
+      "name": "Periorificial Dermatitis",
+      "subgroup": "adnexal-and-follicular",
+      "category": "inflammatory",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-085",
+      "name": "Rosacea",
+      "subgroup": "adnexal-and-follicular",
+      "category": "inflammatory",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-086",
+      "name": "Cheilitis",
+      "subgroup": "dermatitis-and-eczema",
+      "category": "inflammatory",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-087",
+      "name": "Contact Dermatitis",
+      "subgroup": "dermatitis-and-eczema",
+      "category": "inflammatory",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-088",
+      "name": "Dermatitis NOS",
+      "subgroup": "dermatitis-and-eczema",
+      "category": "inflammatory",
+      "rare": false,
+      "highConsequence": false,
+      "nos": true,
+      "synonyms": []
+    },
+    {
+      "id": "DX-089",
+      "name": "Eczema",
+      "subgroup": "dermatitis-and-eczema",
+      "category": "inflammatory",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-090",
+      "name": "Intertrigo",
+      "subgroup": "dermatitis-and-eczema",
+      "category": "inflammatory",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-091",
+      "name": "Lichen Simplex Chronicus",
+      "subgroup": "dermatitis-and-eczema",
+      "category": "inflammatory",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-092",
+      "name": "Prurigo",
+      "subgroup": "dermatitis-and-eczema",
+      "category": "inflammatory",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-093",
+      "name": "Prurigo Nodularis",
+      "subgroup": "dermatitis-and-eczema",
+      "category": "inflammatory",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-094",
+      "name": "Seborrheic Dermatitis",
+      "subgroup": "dermatitis-and-eczema",
+      "category": "inflammatory",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-095",
+      "name": "Stasis Dermatitis",
+      "subgroup": "dermatitis-and-eczema",
+      "category": "inflammatory",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-096",
+      "name": "Granuloma Annulare",
+      "subgroup": "granulomatous-and-neutrophilic",
+      "category": "inflammatory",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-097",
+      "name": "Granulomatous-Neutrophilic Dermatosis NOS",
+      "subgroup": "granulomatous-and-neutrophilic",
+      "category": "inflammatory",
+      "rare": false,
+      "highConsequence": true,
+      "nos": true,
+      "synonyms": []
+    },
+    {
+      "id": "DX-098",
+      "name": "Pyoderma Gangrenosum",
+      "subgroup": "granulomatous-and-neutrophilic",
+      "category": "inflammatory",
+      "rare": true,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-099",
+      "name": "Sarcoidosis",
+      "subgroup": "granulomatous-and-neutrophilic",
+      "category": "inflammatory",
+      "rare": true,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-100",
+      "name": "Sweet Syndrome",
+      "subgroup": "granulomatous-and-neutrophilic",
+      "category": "inflammatory",
+      "rare": true,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-101",
+      "name": "Guttate Psoriasis",
+      "subgroup": "papulosquamous",
+      "category": "inflammatory",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-102",
+      "name": "Lichen Planus",
+      "subgroup": "papulosquamous",
+      "category": "inflammatory",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-103",
+      "name": "Palmoplantar Pustulosis",
+      "subgroup": "papulosquamous",
+      "category": "inflammatory",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-104",
+      "name": "Papulosquamous NOS",
+      "subgroup": "papulosquamous",
+      "category": "inflammatory",
+      "rare": false,
+      "highConsequence": false,
+      "nos": true,
+      "synonyms": []
+    },
+    {
+      "id": "DX-105",
+      "name": "Pityriasis Lichenoides (PLEVA and PLC)",
+      "subgroup": "papulosquamous",
+      "category": "inflammatory",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": [
+        "Pityriasis Lichenoides"
+      ]
+    },
+    {
+      "id": "DX-106",
+      "name": "Pityriasis Rosea",
+      "subgroup": "papulosquamous",
+      "category": "inflammatory",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-107",
+      "name": "Pityriasis Rubra Pilaris",
+      "subgroup": "papulosquamous",
+      "category": "inflammatory",
+      "rare": true,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-108",
+      "name": "Psoriasis",
+      "subgroup": "papulosquamous",
+      "category": "inflammatory",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-109",
+      "name": "Photodermatosis NOS",
+      "subgroup": "photodermatosis",
+      "category": "inflammatory",
+      "rare": false,
+      "highConsequence": false,
+      "nos": true,
+      "synonyms": []
+    },
+    {
+      "id": "DX-110",
+      "name": "Polymorphous Light Eruption",
+      "subgroup": "photodermatosis",
+      "category": "inflammatory",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-111",
+      "name": "Arthropod Bite Reaction (Insect Bite)",
+      "subgroup": "urticarial-and-hypersensitivity",
+      "category": "inflammatory",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": [
+        "Arthropod Bite Reaction",
+        "Insect Bite"
+      ]
+    },
+    {
+      "id": "DX-112",
+      "name": "Drug Eruption",
+      "subgroup": "urticarial-and-hypersensitivity",
+      "category": "inflammatory",
+      "rare": false,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-113",
+      "name": "Erythema Multiforme",
+      "subgroup": "urticarial-and-hypersensitivity",
+      "category": "inflammatory",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-114",
+      "name": "Erythema Nodosum",
+      "subgroup": "urticarial-and-hypersensitivity",
+      "category": "inflammatory",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-115",
+      "name": "Figurate Erythema (EAC Group)",
+      "subgroup": "urticarial-and-hypersensitivity",
+      "category": "inflammatory",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": [
+        "Figurate Erythema"
+      ]
+    },
+    {
+      "id": "DX-116",
+      "name": "Fixed Drug Eruption",
+      "subgroup": "urticarial-and-hypersensitivity",
+      "category": "inflammatory",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-117",
+      "name": "Hypersensitivity Reaction NOS",
+      "subgroup": "urticarial-and-hypersensitivity",
+      "category": "inflammatory",
+      "rare": false,
+      "highConsequence": false,
+      "nos": true,
+      "synonyms": []
+    },
+    {
+      "id": "DX-118",
+      "name": "Stevens-Johnson Syndrome",
+      "subgroup": "urticarial-and-hypersensitivity",
+      "category": "inflammatory",
+      "rare": true,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": [
+        "SJS"
+      ]
+    },
+    {
+      "id": "DX-119",
+      "name": "Urticaria",
+      "subgroup": "urticarial-and-hypersensitivity",
+      "category": "inflammatory",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-120",
+      "name": "Acrochordon (Skin Tag)",
+      "subgroup": "benign",
+      "category": "neoplastic",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": [
+        "Acrochordon",
+        "Skin Tag"
+      ]
+    },
+    {
+      "id": "DX-121",
+      "name": "Benign Neoplasm NOS",
+      "subgroup": "benign",
+      "category": "neoplastic",
+      "rare": false,
+      "highConsequence": false,
+      "nos": true,
+      "synonyms": []
+    },
+    {
+      "id": "DX-122",
+      "name": "Cutaneous Histiocytoses (LCH and Non-LCH)",
+      "subgroup": "benign",
+      "category": "neoplastic",
+      "rare": true,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": [
+        "Cutaneous Histiocytoses"
+      ]
+    },
+    {
+      "id": "DX-123",
+      "name": "Cysts",
+      "subgroup": "benign",
+      "category": "neoplastic",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-124",
+      "name": "Dermatofibroma",
+      "subgroup": "benign",
+      "category": "neoplastic",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-125",
+      "name": "Epidermoid Cyst",
+      "subgroup": "benign",
+      "category": "neoplastic",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-126",
+      "name": "Keratosis NOS",
+      "subgroup": "benign",
+      "category": "neoplastic",
+      "rare": false,
+      "highConsequence": false,
+      "nos": true,
+      "synonyms": []
+    },
+    {
+      "id": "DX-127",
+      "name": "Lipoma",
+      "subgroup": "benign",
+      "category": "neoplastic",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-128",
+      "name": "Mastocytosis",
+      "subgroup": "benign",
+      "category": "neoplastic",
+      "rare": true,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-129",
+      "name": "Milia",
+      "subgroup": "benign",
+      "category": "neoplastic",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-130",
+      "name": "Neurofibroma",
+      "subgroup": "benign",
+      "category": "neoplastic",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-131",
+      "name": "Nevus",
+      "subgroup": "benign",
+      "category": "neoplastic",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-132",
+      "name": "Sebaceous Hyperplasia",
+      "subgroup": "benign",
+      "category": "neoplastic",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-133",
+      "name": "Seborrheic Keratosis",
+      "subgroup": "benign",
+      "category": "neoplastic",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-134",
+      "name": "Syringoma",
+      "subgroup": "benign",
+      "category": "neoplastic",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-135",
+      "name": "Angioma",
+      "subgroup": "benign-vascular",
+      "category": "neoplastic",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-136",
+      "name": "Benign Vascular Lesion NOS",
+      "subgroup": "benign-vascular",
+      "category": "neoplastic",
+      "rare": false,
+      "highConsequence": false,
+      "nos": true,
+      "synonyms": []
+    },
+    {
+      "id": "DX-137",
+      "name": "Hemangioma",
+      "subgroup": "benign-vascular",
+      "category": "neoplastic",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-138",
+      "name": "Pyogenic Granuloma",
+      "subgroup": "benign-vascular",
+      "category": "neoplastic",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-139",
+      "name": "Spider Angioma & Telangiectasia",
+      "subgroup": "benign-vascular",
+      "category": "neoplastic",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": [
+        "Spider Angioma",
+        "Telangiectasia"
+      ]
+    },
+    {
+      "id": "DX-140",
+      "name": "Basal Cell Carcinoma",
+      "subgroup": "malignant",
+      "category": "neoplastic",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": [
+        "BCC"
+      ]
+    },
+    {
+      "id": "DX-141",
+      "name": "Cutaneous T-Cell Lymphoma",
+      "subgroup": "malignant",
+      "category": "neoplastic",
+      "rare": true,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": [
+        "CTCL"
+      ]
+    },
+    {
+      "id": "DX-142",
+      "name": "Kaposi Sarcoma",
+      "subgroup": "malignant",
+      "category": "neoplastic",
+      "rare": true,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-143",
+      "name": "Keratoacanthoma",
+      "subgroup": "malignant",
+      "category": "neoplastic",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-144",
+      "name": "Malignant Neoplasm NOS",
+      "subgroup": "malignant",
+      "category": "neoplastic",
+      "rare": false,
+      "highConsequence": true,
+      "nos": true,
+      "synonyms": []
+    },
+    {
+      "id": "DX-145",
+      "name": "Melanoma",
+      "subgroup": "malignant",
+      "category": "neoplastic",
+      "rare": false,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-146",
+      "name": "Merkel Cell Carcinoma",
+      "subgroup": "malignant",
+      "category": "neoplastic",
+      "rare": true,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-147",
+      "name": "Mycosis Fungoides",
+      "subgroup": "malignant",
+      "category": "neoplastic",
+      "rare": true,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-148",
+      "name": "Squamous Cell Carcinoma",
+      "subgroup": "malignant",
+      "category": "neoplastic",
+      "rare": false,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": [
+        "SCC",
+        "Cutaneous Squamous Cell Carcinoma"
+      ]
+    },
+    {
+      "id": "DX-149",
+      "name": "Actinic Keratosis",
+      "subgroup": "premalignant",
+      "category": "neoplastic",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-150",
+      "name": "Bowen Disease (SCC in Situ)",
+      "subgroup": "premalignant",
+      "category": "neoplastic",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": [
+        "Bowen Disease",
+        "SCC in Situ",
+        "Squamous Cell Carcinoma in Situ"
+      ]
+    },
+    {
+      "id": "DX-151",
+      "name": "Premalignant Keratosis NOS",
+      "subgroup": "premalignant",
+      "category": "neoplastic",
+      "rare": false,
+      "highConsequence": false,
+      "nos": true,
+      "synonyms": []
+    },
+    {
+      "id": "DX-152",
+      "name": "Bullous Disease NOS",
+      "subgroup": "autoimmune-bullous",
+      "category": "autoimmune",
+      "rare": true,
+      "highConsequence": true,
+      "nos": true,
+      "synonyms": []
+    },
+    {
+      "id": "DX-153",
+      "name": "Bullous Pemphigoid",
+      "subgroup": "autoimmune-bullous",
+      "category": "autoimmune",
+      "rare": true,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-154",
+      "name": "Dermatitis Herpetiformis",
+      "subgroup": "autoimmune-bullous",
+      "category": "autoimmune",
+      "rare": true,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-155",
+      "name": "Pemphigus NOS",
+      "subgroup": "autoimmune-bullous",
+      "category": "autoimmune",
+      "rare": true,
+      "highConsequence": true,
+      "nos": true,
+      "synonyms": []
+    },
+    {
+      "id": "DX-156",
+      "name": "Pemphigus Vulgaris",
+      "subgroup": "autoimmune-bullous",
+      "category": "autoimmune",
+      "rare": true,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-157",
+      "name": "Connective Tissue Disease NOS",
+      "subgroup": "connective-tissue",
+      "category": "autoimmune",
+      "rare": false,
+      "highConsequence": true,
+      "nos": true,
+      "synonyms": []
+    },
+    {
+      "id": "DX-158",
+      "name": "Dermatomyositis",
+      "subgroup": "connective-tissue",
+      "category": "autoimmune",
+      "rare": true,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-159",
+      "name": "Lichen Sclerosus",
+      "subgroup": "connective-tissue",
+      "category": "autoimmune",
+      "rare": false,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-160",
+      "name": "Lupus Erythematosus",
+      "subgroup": "connective-tissue",
+      "category": "autoimmune",
+      "rare": false,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": [
+        "Cutaneous Lupus Erythematosus"
+      ]
+    },
+    {
+      "id": "DX-161",
+      "name": "Morphea (Localized Scleroderma)",
+      "subgroup": "connective-tissue",
+      "category": "autoimmune",
+      "rare": true,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": [
+        "Morphea",
+        "Localized Scleroderma"
+      ]
+    },
+    {
+      "id": "DX-162",
+      "name": "Scleroderma",
+      "subgroup": "connective-tissue",
+      "category": "autoimmune",
+      "rare": true,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-163",
+      "name": "Cutaneous Amyloidosis",
+      "subgroup": "metabolic-and-deposition",
+      "category": "autoimmune",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-164",
+      "name": "Cutaneous Mucinosis (Incl. Scleromyxedema)",
+      "subgroup": "metabolic-and-deposition",
+      "category": "autoimmune",
+      "rare": true,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": [
+        "Cutaneous Mucinosis"
+      ]
+    },
+    {
+      "id": "DX-165",
+      "name": "Metabolic-Deposition NOS",
+      "subgroup": "metabolic-and-deposition",
+      "category": "autoimmune",
+      "rare": false,
+      "highConsequence": true,
+      "nos": true,
+      "synonyms": []
+    },
+    {
+      "id": "DX-166",
+      "name": "Porphyria",
+      "subgroup": "metabolic-and-deposition",
+      "category": "autoimmune",
+      "rare": true,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-167",
+      "name": "Xanthoma",
+      "subgroup": "metabolic-and-deposition",
+      "category": "autoimmune",
+      "rare": false,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-168",
+      "name": "Nutritional-Endocrine NOS",
+      "subgroup": "nutritional-and-endocrine",
+      "category": "autoimmune",
+      "rare": false,
+      "highConsequence": true,
+      "nos": true,
+      "synonyms": []
+    },
+    {
+      "id": "DX-169",
+      "name": "Systemic Disease NOS",
+      "subgroup": "systemic",
+      "category": "autoimmune",
+      "rare": false,
+      "highConsequence": true,
+      "nos": true,
+      "synonyms": []
+    },
+    {
+      "id": "DX-170",
+      "name": "Behcet Disease",
+      "subgroup": "vasculitis",
+      "category": "autoimmune",
+      "rare": true,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-171",
+      "name": "Vasculitis",
+      "subgroup": "vasculitis",
+      "category": "autoimmune",
+      "rare": true,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-172",
+      "name": "Vasculopathy NOS",
+      "subgroup": "vasculitis",
+      "category": "autoimmune",
+      "rare": true,
+      "highConsequence": true,
+      "nos": true,
+      "synonyms": []
+    },
+    {
+      "id": "DX-173",
+      "name": "Darier Disease",
+      "subgroup": "keratinization",
+      "category": "genetic",
+      "rare": true,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-174",
+      "name": "Ichthyosis",
+      "subgroup": "keratinization",
+      "category": "genetic",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-175",
+      "name": "Keratinization Disorder NOS",
+      "subgroup": "keratinization",
+      "category": "genetic",
+      "rare": false,
+      "highConsequence": false,
+      "nos": true,
+      "synonyms": []
+    },
+    {
+      "id": "DX-176",
+      "name": "Keratoderma",
+      "subgroup": "keratinization",
+      "category": "genetic",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-177",
+      "name": "Porokeratosis",
+      "subgroup": "keratinization",
+      "category": "genetic",
+      "rare": true,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-178",
+      "name": "Epidermolysis Bullosa",
+      "subgroup": "mechanobullous",
+      "category": "genetic",
+      "rare": true,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-179",
+      "name": "Epidermal Nevus",
+      "subgroup": "mosaic-and-nevoid",
+      "category": "genetic",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-180",
+      "name": "Mosaic-Nevoid NOS",
+      "subgroup": "mosaic-and-nevoid",
+      "category": "genetic",
+      "rare": false,
+      "highConsequence": false,
+      "nos": true,
+      "synonyms": []
+    },
+    {
+      "id": "DX-181",
+      "name": "Ehlers-Danlos Syndrome",
+      "subgroup": "neurocutaneous-and-syndromic",
+      "category": "genetic",
+      "rare": false,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-182",
+      "name": "Neurofibromatosis",
+      "subgroup": "neurocutaneous-and-syndromic",
+      "category": "genetic",
+      "rare": true,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-183",
+      "name": "Syndromic Genodermatosis NOS",
+      "subgroup": "neurocutaneous-and-syndromic",
+      "category": "genetic",
+      "rare": true,
+      "highConsequence": true,
+      "nos": true,
+      "synonyms": []
+    },
+    {
+      "id": "DX-184",
+      "name": "Tuberous Sclerosis",
+      "subgroup": "neurocutaneous-and-syndromic",
+      "category": "genetic",
+      "rare": true,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-185",
+      "name": "Xeroderma Pigmentosum",
+      "subgroup": "neurocutaneous-and-syndromic",
+      "category": "genetic",
+      "rare": true,
+      "highConsequence": true,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-186",
+      "name": "Lymphatic Malformation (Lymphangioma)",
+      "subgroup": "vascular-malformation",
+      "category": "genetic",
+      "rare": true,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": [
+        "Lymphatic Malformation",
+        "Lymphangioma"
+      ]
+    },
+    {
+      "id": "DX-187",
+      "name": "Port-Wine Stain (Nevus Flammeus)",
+      "subgroup": "vascular-malformation",
+      "category": "genetic",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": [
+        "Port-Wine Stain",
+        "Nevus Flammeus"
+      ]
+    },
+    {
+      "id": "DX-188",
+      "name": "Vascular Malformation NOS",
+      "subgroup": "vascular-malformation",
+      "category": "genetic",
+      "rare": false,
+      "highConsequence": false,
+      "nos": true,
+      "synonyms": []
+    },
+    {
+      "id": "DX-189",
+      "name": "Burn",
+      "subgroup": "physical-and-environmental",
+      "category": "reactive-or-external",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-190",
+      "name": "Factitial Dermatitis (Excoriation Disorder)",
+      "subgroup": "physical-and-environmental",
+      "category": "reactive-or-external",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": [
+        "Factitial Dermatitis",
+        "Excoriation Disorder"
+      ]
+    },
+    {
+      "id": "DX-191",
+      "name": "Physical-Environmental NOS",
+      "subgroup": "physical-and-environmental",
+      "category": "reactive-or-external",
+      "rare": false,
+      "highConsequence": false,
+      "nos": true,
+      "synonyms": []
+    },
+    {
+      "id": "DX-192",
+      "name": "Striae Distensae",
+      "subgroup": "physical-and-environmental",
+      "category": "reactive-or-external",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-193",
+      "name": "Keloid",
+      "subgroup": "scarring",
+      "category": "reactive-or-external",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-194",
+      "name": "Scar",
+      "subgroup": "scarring",
+      "category": "reactive-or-external",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-195",
+      "name": "Chronic Venous Insufficiency",
+      "subgroup": "vascular-insufficiency",
+      "category": "reactive-or-external",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-196",
+      "name": "Vascular Insufficiency NOS",
+      "subgroup": "vascular-insufficiency",
+      "category": "reactive-or-external",
+      "rare": false,
+      "highConsequence": true,
+      "nos": true,
+      "synonyms": []
+    },
+    {
+      "id": "DX-197",
+      "name": "Ulcer NOS",
+      "subgroup": "wounds-and-ulcers",
+      "category": "reactive-or-external",
+      "rare": false,
+      "highConsequence": true,
+      "nos": true,
+      "synonyms": []
+    },
+    {
+      "id": "DX-198",
+      "name": "Venous Ulcer",
+      "subgroup": "wounds-and-ulcers",
+      "category": "reactive-or-external",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-199",
+      "name": "Wound NOS",
+      "subgroup": "wounds-and-ulcers",
+      "category": "reactive-or-external",
+      "rare": false,
+      "highConsequence": false,
+      "nos": true,
+      "synonyms": []
+    },
+    {
+      "id": "DX-200",
+      "name": "Pigmented Purpuric Eruptions",
+      "subgroup": "hemosiderin-and-purpuric",
+      "category": "pigmentary",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-201",
+      "name": "Acanthosis Nigricans",
+      "subgroup": "hyperpigmentation",
+      "category": "pigmentary",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-202",
+      "name": "Confluent and Reticulated Papillomatosis",
+      "subgroup": "hyperpigmentation",
+      "category": "pigmentary",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-203",
+      "name": "Hyperpigmentation NOS",
+      "subgroup": "hyperpigmentation",
+      "category": "pigmentary",
+      "rare": false,
+      "highConsequence": false,
+      "nos": true,
+      "synonyms": []
+    },
+    {
+      "id": "DX-204",
+      "name": "Lentigines & Ephelides",
+      "subgroup": "hyperpigmentation",
+      "category": "pigmentary",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": [
+        "Lentigines",
+        "Ephelides"
+      ]
+    },
+    {
+      "id": "DX-205",
+      "name": "Melasma",
+      "subgroup": "hyperpigmentation",
+      "category": "pigmentary",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-206",
+      "name": "Post-Inflammatory Hyperpigmentation",
+      "subgroup": "hyperpigmentation",
+      "category": "pigmentary",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-207",
+      "name": "Hypopigmentation NOS",
+      "subgroup": "hypopigmentation",
+      "category": "pigmentary",
+      "rare": false,
+      "highConsequence": false,
+      "nos": true,
+      "synonyms": []
+    },
+    {
+      "id": "DX-208",
+      "name": "Vitiligo",
+      "subgroup": "hypopigmentation",
+      "category": "pigmentary",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-209",
+      "name": "Alopecia Areata",
+      "subgroup": "hair-and-scalp",
+      "category": "hair-and-nail",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-210",
+      "name": "Alopecia NOS",
+      "subgroup": "hair-and-scalp",
+      "category": "hair-and-nail",
+      "rare": false,
+      "highConsequence": false,
+      "nos": true,
+      "synonyms": []
+    },
+    {
+      "id": "DX-211",
+      "name": "Hair Disorder NOS",
+      "subgroup": "hair-and-scalp",
+      "category": "hair-and-nail",
+      "rare": false,
+      "highConsequence": false,
+      "nos": true,
+      "synonyms": []
+    },
+    {
+      "id": "DX-212",
+      "name": "Nail Disorder NOS",
+      "subgroup": "nail",
+      "category": "hair-and-nail",
+      "rare": false,
+      "highConsequence": false,
+      "nos": true,
+      "synonyms": []
+    },
+    {
+      "id": "DX-213",
+      "name": "Paronychia",
+      "subgroup": "nail",
+      "category": "hair-and-nail",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    },
+    {
+      "id": "DX-214",
+      "name": "Healthy Skin",
+      "subgroup": "normal-skin",
+      "category": "healthy-skin",
+      "rare": false,
+      "highConsequence": false,
+      "nos": false,
+      "synonyms": []
+    }
+  ]
+}

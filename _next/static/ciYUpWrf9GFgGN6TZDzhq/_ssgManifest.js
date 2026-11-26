@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002Fchallenges\u002F[slug]","\u002Fdatasets\u002F[slug]","\u002Fdocs\u002F[[...slug]]","\u002Fdownloads\u002F[file]","\u002Flearn\u002Fanswers\u002F[file]","\u002Flearn\u002Fcases\u002F[id]","\u002Fmodels\u002F[slug]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()

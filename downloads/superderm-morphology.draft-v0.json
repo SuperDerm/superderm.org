@@ -1,0 +1,43 @@
+{
+  "id": "superderm-morphology",
+  "version": "0.1.0-draft",
+  "status": "draft",
+  "approval": "NOT APPROVED. Proposed starting list of common descriptive terms for clinical review. The clinical lead and vocabulary maintainers must approve names, definitions and size conventions before a real annotation batch opens.",
+  "source": "Drafted for the SuperDerm platform preview from widely used dermatologic descriptive terms.",
+  "notes": "Size cut-offs (for example macule versus patch) vary between references and often cannot be measured in a photograph; the approved guide should say how to handle unknown size.",
+  "groups": [
+    { "id": "primary", "name": "Primary lesions" },
+    { "id": "secondary", "name": "Secondary changes" },
+    { "id": "vascular", "name": "Vascular and purpuric" },
+    { "id": "arrangement", "name": "Arrangement and shape" }
+  ],
+  "terms": [
+    { "id": "MORPH-001", "group": "primary", "name": "Macule", "definition": "Flat, non-palpable change in colour, small (commonly under 1 cm)." },
+    { "id": "MORPH-002", "group": "primary", "name": "Patch", "definition": "Flat, non-palpable change in colour, larger (commonly 1 cm or more)." },
+    { "id": "MORPH-003", "group": "primary", "name": "Papule", "definition": "Raised, palpable lesion, small (commonly under 1 cm)." },
+    { "id": "MORPH-004", "group": "primary", "name": "Plaque", "definition": "Raised, plateau-like lesion, larger (commonly 1 cm or more)." },
+    { "id": "MORPH-005", "group": "primary", "name": "Nodule", "definition": "Raised or deep, rounded lesion with depth, commonly 1 cm or more." },
+    { "id": "MORPH-006", "group": "primary", "name": "Vesicle", "definition": "Small fluid-filled blister." },
+    { "id": "MORPH-007", "group": "primary", "name": "Bulla", "definition": "Large fluid-filled blister." },
+    { "id": "MORPH-008", "group": "primary", "name": "Pustule", "definition": "Visible collection of pus." },
+    { "id": "MORPH-009", "group": "primary", "name": "Wheal", "definition": "Transient, oedematous papule or plaque." },
+    { "id": "MORPH-010", "group": "primary", "name": "Cyst", "definition": "Enclosed cavity with liquid or semi-solid contents." },
+    { "id": "MORPH-011", "group": "secondary", "name": "Scale", "definition": "Visible flakes of stratum corneum." },
+    { "id": "MORPH-012", "group": "secondary", "name": "Crust", "definition": "Dried serum, blood or pus on the surface." },
+    { "id": "MORPH-013", "group": "secondary", "name": "Erosion", "definition": "Superficial loss of epidermis." },
+    { "id": "MORPH-014", "group": "secondary", "name": "Ulcer", "definition": "Deeper loss of epidermis and dermis." },
+    { "id": "MORPH-015", "group": "secondary", "name": "Fissure", "definition": "Linear crack in the skin." },
+    { "id": "MORPH-016", "group": "secondary", "name": "Excoriation", "definition": "Scratch mark or picked area." },
+    { "id": "MORPH-017", "group": "secondary", "name": "Lichenification", "definition": "Thickened skin with accentuated skin markings." },
+    { "id": "MORPH-018", "group": "secondary", "name": "Atrophy", "definition": "Thinned skin." },
+    { "id": "MORPH-019", "group": "secondary", "name": "Scar", "definition": "Fibrous tissue replacing normal skin." },
+    { "id": "MORPH-020", "group": "secondary", "name": "Eschar or necrosis", "definition": "Dead tissue, often black or dark crust adherent to the base." },
+    { "id": "MORPH-021", "group": "vascular", "name": "Petechiae", "definition": "Pinpoint non-blanching purpura." },
+    { "id": "MORPH-022", "group": "vascular", "name": "Purpura", "definition": "Non-blanching discoloration from blood in the skin." },
+    { "id": "MORPH-023", "group": "vascular", "name": "Telangiectasia", "definition": "Visible small dilated blood vessels." },
+    { "id": "MORPH-024", "group": "arrangement", "name": "Annular", "definition": "Ring-shaped, often with central clearing." },
+    { "id": "MORPH-025", "group": "arrangement", "name": "Grouped or clustered", "definition": "Lesions gathered together in a group." },
+    { "id": "MORPH-026", "group": "arrangement", "name": "Linear", "definition": "Arranged in a line." },
+    { "id": "MORPH-027", "group": "arrangement", "name": "Umbilicated", "definition": "Central depression in a raised lesion." }
+  ]
+}

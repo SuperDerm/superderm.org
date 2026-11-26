@@ -1,0 +1,17 @@
+{
+  "id": "superderm-image-quality",
+  "version": "1.0.0",
+  "status": "plan",
+  "source": "SuperDerm platform specification §05 (image quality, per photograph).",
+  "values": [
+    { "id": "assessable", "name": "Assessable", "definition": "The finding of interest is visible clearly enough to describe." },
+    { "id": "partially_assessable", "name": "Partially assessable", "definition": "Some of the finding can be described, but part is obscured, out of focus or out of frame." },
+    { "id": "unable_to_assess", "name": "Unable to assess", "definition": "The photograph cannot be assessed. Give a reason. This never establishes that no lesion is present." }
+  ],
+  "flags": [
+    { "id": "obstruction", "name": "Obstruction" },
+    { "id": "poor_focus", "name": "Poor focus" },
+    { "id": "inadequate_lighting", "name": "Inadequate lighting" },
+    { "id": "nonclinical_image", "name": "Not a clinical photograph" }
+  ]
+}

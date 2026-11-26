@@ -1,0 +1,132 @@
+1:"$Sreact.fragment"
+2:"/_next/static/chunks/318vd_uhd1odi.js"
+3:I[46912,["$2"],"default"]
+4:I[1384,["$2"],"default"]
+5:"/_next/static/chunks/09viwtfz8qtst.js"
+6:I[49848,["$2","$5"],""]
+9:"/_next/static/chunks/3nk8si_t3fsa6.js"
+a:I[86979,["$2","$5","$9"],"default"]
+13:"ViewportBoundary"
+14:I[96559,["$2"],"$13"]
+16:"MetadataBoundary"
+17:I[96559,["$2"],"$16"]
+18:"$Sreact.suspense"
+1a:I[2501,["$2"],"default",1]
+:HL["/_next/static/chunks/2t399uweowg-8.css","style"]
+:HL["/_next/static/media/InterVariable-s.p.3s0wwav3ax-t6.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/assets/logos/superderm-lockup-reversed.svg","image"]
+:HL["/assets/partners/pediamed-mark.png","image"]
+:HL["/assets/partners/anthropic-on-dark.svg","image"]
+:HL["/assets/partners/nyu-langone-health-on-dark.svg","image"]
+:HL["/assets/partners/illinois-logo-on-dark.svg","image"]
+e:X
+11:[["children",{"s":"__PAGE__","h":512,"d":{"r":"$L12","p":false,"v":null}}]]
+f:[["children",{"s":{"n":"slug","t":"oc","k":"contributing/questions","s":[]},"h":512,"d":{"r":"$L10","p":false,"v":"$e"},"c":"$Q11"}]]
+c:[["children",{"s":"docs","h":512,"d":{"r":"$Ld","p":false,"v":"$e"},"c":"$Qf"}]]
+7:[["children",{"s":"(site)","h":512,"d":{"r":["$","$1","c",{"children":[[["$","script","script-0",{"src":"/_next/static/chunks/09viwtfz8qtst.js","async":true,"nonce":"$undefined"}]],["$L8",["$","main",null,{"id":"main","children":["$","$L3",null,{"parallelRouterKey":"children","error":"$a","errorStyles":[],"errorScripts":[["$","script","script-0",{"src":"/_next/static/chunks/3nk8si_t3fsa6.js","async":true,"nonce":"$undefined"}]],"template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"className":"page-shell page-body","style":{"textAlign":"center","paddingTop":72},"children":[["$","h1",null,{"children":"Page Not Found"}],["$","p",null,{"children":"The page may have moved, or it may be a private item you do not have access to."}],["$","div",null,{"className":"button-row","style":{"justifyContent":"center"},"children":[["$","$L6",null,{"className":"button","href":"/","children":"SuperDerm Home"}],["$","$L6",null,{"className":"button button-secondary","href":"/docs","children":"Documentation"}]]}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"site-footer","children":["$","div",null,{"className":"page-shell","children":[["$","div",null,{"className":"footer-main","children":[["$","$L6",null,{"href":"/","aria-label":"SuperDerm home","className":"footer-logo","children":["$","img",null,{"src":"/assets/logos/superderm-lockup-reversed.svg","alt":"","width":169,"height":28,"decoding":"async"}]}],["$","div",null,{"className":"footer-orgs","children":[["$","p",null,{"className":"footer-label","children":"Jointly Organized by"}],["$","ul",null,{"className":"org-strip","children":[["$","li","PediaMed AI Lab",{"children":["$","a",null,{"className":"org","href":"https://pediamed.ai/","rel":"noopener noreferrer","target":"_blank","aria-label":"PediaMed AI Lab","children":[["$","img",null,{"src":"/assets/partners/pediamed-mark.png","alt":"","width":215,"height":194,"style":{"height":30}}],["$","span",null,{"className":"org-name","children":"PediaMed AI Lab"}]]}]}],["$","li","Anthropic",{"children":["$","a",null,{"className":"org","href":"https://www.anthropic.com/","rel":"noopener noreferrer","target":"_blank","aria-label":"Anthropic","children":[["$","img",null,{"src":"/assets/partners/anthropic-on-dark.svg","alt":"","width":590,"height":68,"style":{"height":13}}],false]}]}],["$","li","Ti Kay",{"children":["$","a",null,{"className":"org","href":"https://www.tikayhaiti.org/","rel":"noopener noreferrer","target":"_blank","aria-label":"Ti Kay","children":[null,["$","span",null,{"className":"org-name org-name-only","children":"Ti Kay"}]]}]}],["$","li","NYU Langone Health",{"children":["$","a",null,{"className":"org","href":"https://nyulangone.org/","rel":"noopener noreferrer","target":"_blank","aria-label":"NYU Langone Health","children":[["$","img",null,{"src":"/assets/partners/nyu-langone-health-on-dark.svg","alt":"","width":128,"height":54,"style":{"height":34}}],false]}]}],["$","li","University of Illinois Urbana-Champaign",{"children":["$","a",null,{"className":"org","href":"https://illinois.edu/","rel":"noopener noreferrer","target":"_blank","aria-label":"University of Illinois Urbana-Champaign","children":[["$","img",null,{"src":"/assets/partners/illinois-logo-on-dark.svg","alt":"","width":151,"height":26,"style":{"height":20}}],false]}]}]]}]]}]]}],["$","p",null,{"className":"footer-notice","children":["For research discussion only: nothing on SuperDerm, including model outputs, is medical advice or a medical diagnosis.","$Lb"]}]]}]}]]]}],"p":false,"v":null},"c":"$Qc"}]]
+0:{"P":null,"c":["","docs","contributing","questions",""],"q":"","i":false,"t":{"t":{"s":"","h":528,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/2t399uweowg-8.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/318vd_uhd1odi.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"Rxtg3q_variable","children":["$","body",null,{"children":[["$","a",null,{"className":"skip-link","href":"#main","children":"Skip to content"}],null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"className":"page-shell page-body","style":{"textAlign":"center","paddingTop":72},"children":[["$","h1",null,{"children":"Page Not Found"}],["$","p",null,{"children":"The page may have moved, or it may be a private item you do not have access to."}],["$","div",null,{"className":"button-row","style":{"justifyContent":"center"},"children":[["$","$L6",null,{"className":"button","href":"/","children":"SuperDerm Home"}],["$","$L6",null,{"className":"button button-secondary","href":"/docs","children":"Documentation"}]]}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}]}]]}],"p":false,"v":null},"c":"$Q7"},"h":{"r":["$","$1","h",{"children":[null,["$","$L14",null,{"children":"$L15"}],["$","$L17",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$18",null,{"name":"Next.Metadata","children":"$L19"}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":false,"v":null}},"m":"$undefined","G":["$1a",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/2t399uweowg-8.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"ciYUpWrf9GFgGN6TZDzhq"}
+1c:I[96559,["$2"],"OutletBoundary"]
+1e:I[20531,["$2","$5"],"SiteNav"]
+:HL["/assets/logos/superderm-lockup.svg","image"]
+b:["$","$L6",null,{"href":"/docs/reference/image-credits","children":"Image Credits"}]
+d:["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+10:["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+12:["$","$1","c",{"children":["$L1b",null,["$","$L1c",null,{"children":["$","$18",null,{"name":"Next.MetadataOutlet","children":"$@1d"}]}]]}]
+8:["$","header",null,{"className":"site-header","children":["$","div",null,{"className":"header-inner page-shell","children":[["$","$L6",null,{"className":"wordmark","href":"/","aria-label":"SuperDerm home","children":["$","img",null,{"src":"/assets/logos/superderm-lockup.svg","alt":"","width":193,"height":32,"decoding":"async"}]}],["$","$L1e",null,{"user":null,"accounts":false}]]}]}]
+e:C
+1f:T14d4,<h1>Propose a Clinical Question</h1>
+<p>Use <a href="/contribute">Propose a clinical question</a> to tell the community which skin conditions are hard to tell apart in your setting. You do not need any cases to propose a question. Write in everyday clinical language; no technical knowledge is needed.</p>
+<p>The form page gives this example:</p>
+<blockquote>
+<p>Early mpox can look like varicella or molluscum. Missing it delays isolation and testing. A model should list mpox in its top three from one or two photos and a short history.</p>
+</blockquote>
+<h2 id="fields">Fields<a class="heading-anchor" href="#fields" aria-label="Link to this section">#</a></h2>
+<h3 id="the-clinical-question">The Clinical Question<a class="heading-anchor" href="#the-clinical-question" aria-label="Link to this section">#</a></h3>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Required</th>
+<th>Example or notes</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Title</td>
+<td>Yes</td>
+<td>&quot;Early mpox versus varicella in children&quot;</td>
+</tr>
+<tr>
+<td>Presentations that are difficult to tell apart</td>
+<td>Yes</td>
+<td>Which conditions are confused, and how they present</td>
+</tr>
+<tr>
+<td>Why it matters: consequences of missing it, and priority populations</td>
+<td>Yes</td>
+<td>Harm from a missed or late diagnosis, and who is most affected</td>
+</tr>
+</tbody></table>
+<h3 id="what-a-model-would-do">What a Model Would Do<a class="heading-anchor" href="#what-a-model-would-do" aria-label="Link to this section">#</a></h3>
+<p>All optional.</p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Inputs</td>
+<td>One or more photos and a short history</td>
+</tr>
+<tr>
+<td>Desired outputs</td>
+<td>Top three diagnoses</td>
+</tr>
+<tr>
+<td>Cases or annotations needed</td>
+<td>What evidence a test set would require</td>
+</tr>
+<tr>
+<td>Resources already available</td>
+<td>Collections, publications or tools you know of</td>
+</tr>
+<tr>
+<td>Work you can take on</td>
+<td>Contribute cases, review annotations, act as clinical lead</td>
+</tr>
+</tbody></table>
+<h2 id="submit">Submit<a class="heading-anchor" href="#submit" aria-label="Link to this section">#</a></h2>
+<ol>
+<li>Sign in and accept the community rules; see <a href="/docs/getting-started/overview">Getting started</a>.</li>
+<li>Fill in the form and select <strong>Preview</strong>. Missing fields are listed at the top, each linked to its field.</li>
+<li>Select <strong>Submit for Review</strong>.</li>
+</ol>
+<p>Your receipt shows a submission ID that stays the same through revisions, and the proposal appears under <strong>Contributions</strong> in <a href="/contribute">My workspace</a>. To continue a saved draft later, select <strong>Resume Draft</strong> there.</p>
+<h2 id="from-proposal-to-challenge">From Proposal to Challenge<a class="heading-anchor" href="#from-proposal-to-challenge" aria-label="Link to this section">#</a></h2>
+<p>The form page shows the path a question follows:</p>
+<ol>
+<li><strong>Proposed.</strong> You submit the question.</li>
+<li><strong>Accepted by the clinical team.</strong> A proposal can also need more information or be deferred. The original proposer and the reason for each decision are kept.</li>
+<li><strong>In Preparation.</strong> A clinical lead defines which cases are eligible, what evidence the reference diagnosis needs, and the common conditions it is confused with. An evaluation maintainer prepares development examples, data splits, the scorer and a reproducible baseline.</li>
+<li><strong>Open for Contributions.</strong> The challenge collects cases and annotations.</li>
+<li><strong>Open for Evaluation.</strong> Prediction submission opens only when the input package, terms of use, reference answers and scorer version are ready and the baseline has been rerun successfully.</li>
+</ol>
+<p>Afterwards a challenge is <strong>Closed</strong>, then <strong>Archived</strong>.</p>
+<p>Review tools for proposals are Planned. Until they are available, your proposal stays in <strong>Pending Review</strong>.</p>
+<h2 id="the-first-challenge">The First Challenge<a class="heading-anchor" href="#the-first-challenge" aria-label="Link to this section">#</a></h2>
+<p><a href="/challenges/rare-and-mimics">Rare Skin Disease and Common Mimics</a> is <strong>In Preparation</strong>. Its question: given clinical photographs taken with a phone or camera, can a model include a rare, high-consequence condition in its top three when it resembles a common presentation?</p>
+<ul>
+<li>The clinical team will select the first set of diagnoses and the common conditions they resemble.</li>
+<li>Its owner and evaluation maintainer are still to be confirmed.</li>
+<li>You can help now by contributing documented cases and annotations.</li>
+<li><strong>Submit Predictions</strong> stays disabled until evaluation opens. The scoring rules are already published: see <a href="/docs/evaluation/scoring">Community scoring protocol</a>.</li>
+</ul>
+<h2 id="credit">Credit<a class="heading-anchor" href="#credit" aria-label="Link to this section">#</a></h2>
+<p>Challenge credit is Planned. Each challenge will credit its clinical lead, evaluation maintainer, proposer, case contributors and annotators according to each person&#39;s attribution preference. See <a href="/docs/contributing/credit">Contribution and credit</a>.</p>
+1b:["$","div",null,{"className":"page-shell docs-layout","children":[["$","nav",null,{"className":"docs-nav","aria-label":"Documentation","children":[["$","div","Start Here",{"children":[["$","h2",null,{"children":"Start Here"}],["$","ul",null,{"children":[["$","li","index",{"children":["$","$L6",null,{"href":"/docs","aria-current":"$undefined","children":"SuperDerm Documentation"}]}],["$","li","getting-started/overview",{"children":["$","$L6",null,{"href":"/docs/getting-started/overview","aria-current":"$undefined","children":"Getting Started"}]}],["$","li","getting-started/roles",{"children":["$","$L6",null,{"href":"/docs/getting-started/roles","aria-current":"$undefined","children":"Roles and Permissions"}]}]]}]]}],["$","div","Annotate",{"children":[["$","h2",null,{"children":"Annotate"}],["$","ul",null,{"children":[["$","li","annotation/guide",{"children":["$","$L6",null,{"href":"/docs/annotation/guide","aria-current":"$undefined","children":"Annotation Guide"}]}],["$","li","annotation/workspace",{"children":["$","$L6",null,{"href":"/docs/annotation/workspace","aria-current":"$undefined","children":"Using the Workspace"}]}],["$","li","annotation/review",{"children":["$","$L6",null,{"href":"/docs/annotation/review","aria-current":"$undefined","children":"How Review Works"}]}]]}]]}],["$","div","Contribute",{"children":[["$","h2",null,{"children":"Contribute"}],["$","ul",null,{"children":[["$","li","contributing/cases",{"children":["$","$L6",null,{"href":"/docs/contributing/cases","aria-current":"$undefined","children":"Contribute a Case"}]}],["$","li","contributing/datasets",{"children":["$","$L6",null,{"href":"/docs/contributing/datasets","aria-current":"$undefined","children":"Share a Dataset"}]}],["$","li","contributing/models",{"children":["$","$L6",null,{"href":"/docs/contributing/models","aria-current":"$undefined","children":"Share a Model or Tool"}]}],["$","li","contributing/questions",{"children":["$","$L6",null,{"href":"/docs/contributing/questions","aria-current":"page","children":"Propose a Clinical Question"}]}],["$","li","contributing/credit",{"children":["$","$L6",null,{"href":"/docs/contributing/credit","aria-current":"$undefined","children":"Contribution and Credit"}]}]]}]]}],["$","div","Data",{"children":[["$","h2",null,{"children":"Data"}],["$","ul",null,{"children":[["$","li","data/privacy",{"children":["$","$L6",null,{"href":"/docs/data/privacy","aria-current":"$undefined","children":"Data and Privacy"}]}],["$","li","data/access-and-withdrawal",{"children":["$","$L6",null,{"href":"/docs/data/access-and-withdrawal","aria-current":"$undefined","children":"Data Access and Withdrawal"}]}],["$","li","data/issues",{"children":["$","$L6",null,{"href":"/docs/data/issues","aria-current":"$undefined","children":"Report an Issue"}]}]]}]]}],["$","div","Evaluate",{"children":[["$","h2",null,{"children":"Evaluate"}],["$","ul",null,{"children":[["$","li","evaluation/train-and-evaluate",{"children":["$","$L6",null,{"href":"/docs/evaluation/train-and-evaluate","aria-current":"$undefined","children":"Train and Evaluate a Model"}]}],["$","li","evaluation/scoring",{"children":["$","$L6",null,{"href":"/docs/evaluation/scoring","aria-current":"$undefined","children":"Community Scoring Protocol"}]}],["$","li","evaluation/paper-protocol",{"children":["$","$L6",null,{"href":"/docs/evaluation/paper-protocol","aria-current":"$undefined","children":"How the Preprint's Evaluation Differs"}]}]]}]]}],["$","div","Reference",{"children":[["$","h2",null,{"children":"Reference"}],["$","ul",null,{"children":[["$","li","reference/release-format",{"children":["$","$L6",null,{"href":"/docs/reference/release-format","aria-current":"$undefined","children":"Release Package Format"}]}],["$","li","reference/api",{"children":["$","$L6",null,{"href":"/docs/reference/api","aria-current":"$undefined","children":"API Overview"}]}],["$","li","reference/citing",{"children":["$","$L6",null,{"href":"/docs/reference/citing","aria-current":"$undefined","children":"How to Cite SuperDerm"}]}],["$","li","reference/image-credits",{"children":["$","$L6",null,{"href":"/docs/reference/image-credits","aria-current":"$undefined","children":"Image Credits"}]}]]}]]}]]}],["$","article",null,{"className":"prose","children":[["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$1f"}}],"$L20"]}]]}]
+20:["$","p",null,{"className":"doc-updated","children":["Last updated ","21 Nov 2026",". Found something unclear? ",["$","$L6",null,{"className":"link","href":"/docs/data/issues","children":"Report an Issue"}],"."]}]
+15:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#FCFCFA"}]]
+21:I[78936,["$2"],"IconMark"]
+19:[["$","title","0",{"children":"Propose a Clinical Question · Documentation · SuperDerm"}],["$","meta","1",{"name":"description","content":"An open research community for clinical skin photographs. Contribute documented cases, annotate visible findings, and build models for common and rare skin diseases."}],["$","link","2",{"rel":"manifest","href":"/assets/favicons/site.webmanifest","crossOrigin":"$undefined"}],["$","meta","3",{"property":"og:title","content":"SuperDerm — An Open Platform and Community for Clinical Skin Photographs"}],["$","meta","4",{"property":"og:description","content":"An open research community for clinical skin photographs. Contribute documented cases, annotate visible findings, and build models for common and rare skin diseases."}],["$","meta","5",{"property":"og:site_name","content":"SuperDerm"}],["$","meta","6",{"property":"og:image","content":"https://superderm.org/assets/social/superderm-og.png"}],["$","meta","7",{"property":"og:image:width","content":"1200"}],["$","meta","8",{"property":"og:image:height","content":"630"}],["$","meta","9",{"property":"og:image:alt","content":"SuperDerm"}],["$","meta","10",{"property":"og:type","content":"website"}],["$","meta","11",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","12",{"name":"twitter:title","content":"SuperDerm — An Open Platform and Community for Clinical Skin Photographs"}],["$","meta","13",{"name":"twitter:description","content":"An open research community for clinical skin photographs. Contribute documented cases, annotate visible findings, and build models for common and rare skin diseases."}],["$","meta","14",{"name":"twitter:image","content":"https://superderm.org/assets/social/superderm-og.png"}],["$","link","15",{"rel":"icon","href":"/assets/favicons/favicon.ico","sizes":"16x16 32x32 48x48"}],["$","link","16",{"rel":"icon","href":"/assets/favicons/favicon-32.png","sizes":"32x32","type":"image/png"}],["$","link","17",{"rel":"icon","href":"/assets/favicons/favicon.svg","type":"image/svg+xml"}],["$","link","18",{"rel":"apple-touch-icon","href":"/assets/favicons/apple-touch-icon.png","sizes":"180x180"}],["$","$L21","19",{}]]
+1d:null
